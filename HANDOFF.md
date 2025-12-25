@@ -12,10 +12,17 @@
 >
 > **📖 See `HANDOFF_PROTOCOL.md` for complete protocol details.**
 
-**Date:** December 24, 2025
-**Status:** Active Development - Protocol Established
+**Date:** December 25, 2025
+**Status:** Active Development - Component inventory guardrails + standalone metadata enforced
 
 ## 📋 What Was Just Completed
+
+- **Component inventory guardrails + standalone metadata:**
+  - Added strict schema validation with `standalone: true|false`.
+  - Enforced co-located README for standalone components.
+  - Added CI guardrails (GitHub Actions) to check and block drift.
+  - Generated inventory artifacts in `component-inventory/`.
+  - Canonical docs moved to `scripts/component-inventory/README.md` with a pointer in `docs/COMPONENT_INVENTORY.md`.
 
 - **Markdown linting fixes:**
   - Fixed MD032 (blanks around lists) in HANDOFF_PROTOCOL.md on lines 21, 33, 48
@@ -38,6 +45,8 @@
   - CSS persisted (nav hover highlight): Updated `components/floating-nav.tsx` hover highlight overlays to avoid explicitly setting `left/top`
   - Homepage fix (Superpowers heading): Fixed hidden "SUPERPOWERS" heading by defining missing theme compat vars in `app/globals.css`
   - Resume fixes: Restored breathing background and scoped printable resume container to dark-on-white variables
+- **Component inventory documentation:**
+  - Added canonical standalone documentation for the component inventory system in `scripts/component-inventory/README.md`
 
 ## 🎯 Current Project State
 
@@ -139,6 +148,7 @@
 - `HANDOFF.md` - **Current project state and handoff information**
 - `HANDOFF_PROTOCOL.md` - **🚨 MANDATORY protocol for all agents**
 - `openmemory.md` - Project memory and context
+- `docs/COMPONENT_INVENTORY.md` - Component inventory system documentation
 - `docs/ARCHITECTURE.md`
 - `docs/HANDBOOK.md`
 - `app/layout.tsx`
@@ -154,7 +164,7 @@
 - **Repository:** coreyalejandro/coreys-agentic-portfolio
 - **Remote:** `git@github.com:coreyalejandro/coreys-agentic-portfolio.git`
 - **Branch:** main
-- **Last Commit:** 7762d44 - "Update HANDOFF.md: document protocol enforcement work"
+- **Last Commit:** 60b8397 - "Add standalone metadata and docs enforcement"
 
 ---
 
