@@ -53,9 +53,24 @@ This document is the **Single Source of Truth** for the Anthropic AI Safety Fell
 ### SOP 1: Intent Clarification Feedback Loop
 - **Trigger**: Before starting any module task.
 - **Action**: Restate intent, show planned file structure, wait for user "proceed."
+- **Constraint**: Max 5 clarifying question instances total per session.
 
 ### SOP 2: Evidence-Based Verification (Receipts)
 - **Requirement**: Every task completion must generate a `receipts/<module>-receipt.json`.
+
+### SOP 3: Scope Escalation & Ship-First
+- **Rule**: If a task exceeds estimated time by 50%, AI must escalate to user.
+- **Action**: Propose a Tier A (MVP) alternative to keep the timeline moving.
+- **Ship Gate**: T-24h (Jan 11, 9:00 AM) - No new feature development; polish and submission only.
+
+### SOP 4: Context Integrity & Chunking Protocol
+- **Objective**: Prevent "context collapse" and deterioration of high-fidelity narrative work across parallel execution streams.
+- **Protocol**:
+  1. **Conversational Anchor**: Every parallel agent must begin its turn by reading the `All-in-One-Prompt-PRD-Plan.md` and the latest `HANDOFF.md`.
+  2. **Chunking Threshold**: Large files (e.g., the 525-line plan) must be processed in chunks of no more than 150 lines for modification to ensure precision.
+  3. **Work-Product Sync**: After every 3 significant tool calls, the agent must update the `openmemory.md` or a module-specific `CONTEXT.md` to capture intermediate reasoning and "soul" preservation.
+  4. **Handoff Fidelity**: No conversation can be ended without updating the `HANDOFF.md` with explicit details on what was achieved, what was learned, and what must be carried forward.
+  5. **Narrative Validation**: Before finalizing any narrative artifact (essays, video scripts), the agent must run a "Narrative Fidelity Check" against the "Safety as Home" pillars.
 
 ---
 
@@ -86,7 +101,7 @@ This document is the **Single Source of Truth** for the Anthropic AI Safety Fell
 ---
 
 ## 🏁 Verification & Truth (V&T) Statement
-- **Exists**: Master Governance Document (`All-in-One-Prompt-PRD-Plan.md`) updated with 8 Priority Repos and Dual Design Rules.
+- **Exists**: Master Governance Document (`All-in-One-Prompt-PRD-Plan.md`) updated with 8 Priority Repos, Dual Design Rules, and SOP 4 (Context Integrity).
 - **Exists**: Path verification for "The Cursor" script and MADmall iterations.
 - **Non-Existence**: Deliverables 1-6 are NOT STARTED. Final version of HUI/UICare not yet selected.
 - **Functional Status**: Plan is fully aligned with user's visceral intent and aesthetic constraints.
