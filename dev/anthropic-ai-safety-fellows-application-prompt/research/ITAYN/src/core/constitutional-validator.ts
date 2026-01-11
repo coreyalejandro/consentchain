@@ -117,15 +117,10 @@ export const DEFAULT_PRINCIPLES: string[] = [
 ];
 
 export class ConstitutionalValidator {
-  private claims: ProofCarryingClaim[] = [];
   private incidentLog: Array<{ timestamp: Date; invariant: string; details: string }> = [];
-  private principles: string[];
   private learnings: string[] = [];
 
-  constructor(principles?: string[]) {
-    // Initialize with PROACTIVE invariants (or custom principles if provided)
-    this.principles = principles ?? DEFAULT_PRINCIPLES;
-  }
+  constructor(_principles?: string[]) {}
 
   /**
    * Assess an intention against all PROACTIVE invariants

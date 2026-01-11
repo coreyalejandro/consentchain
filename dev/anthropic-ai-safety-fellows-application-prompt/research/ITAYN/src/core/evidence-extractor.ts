@@ -8,7 +8,7 @@
  * @see constitutional-validator.ts for I1 validation
  */
 
-import type { RawInput, ParsedIntention, ConfidenceLevel } from '../types/sec-spec.js';
+import type { RawInput, ConfidenceLevel } from '../types/sec-spec.js';
 import type { EpistemicTag, EvidencePointer, ProofCarryingClaim } from './constitutional-validator.js';
 
 /**

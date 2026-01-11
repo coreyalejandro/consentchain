@@ -67,8 +67,8 @@ By capturing, validating, and translating user intentions through Constitutional
 | Constitutional Validator | `src/core/constitutional-validator.ts` | ✅ Complete | 524 |
 | Intention Translation Loop | `src/core/intention-translation-loop.ts` | ✅ Complete | 223 |
 | MCP Context Manager | `src/core/mcp-context.ts` | ✅ Complete | 252 |
-| Evidence Extractor | `src/core/evidence-extractor.ts` | ✅ Complete | 180 |
-| Public API | `src/index.ts` | ✅ Complete | 82 |
+| Evidence Extractor | `src/core/evidence-extractor.ts` | ✅ Complete | 327 |
+| Public API | `src/index.ts` | ✅ Complete | 92 |
 
 ---
 
@@ -130,18 +130,14 @@ console.log(result.action.guardrails); // []
 
 ## Constitutional AI Integration
 
-The framework includes 10 default principles inspired by Anthropic's Constitutional AI:
+The framework's default principles are the six PROACTIVE invariants (I1-I6):
 
-1. Be helpful and provide accurate information
-2. Avoid causing harm to users or others
-3. Respect user privacy and confidentiality
-4. Be honest about limitations and uncertainties
-5. Refuse requests that could enable illegal activities
-6. Protect vulnerable populations from exploitation
-7. Maintain transparency about AI nature and capabilities
-8. Support human oversight and control
-9. Avoid amplifying biases or discrimination
-10. Prioritize long-term safety over short-term compliance
+1. Evidence-First Outputs
+2. No Phantom Work
+3. Confidence Requires Verification
+4. Traceability Is Mandatory
+5. Safety Over Fluency
+6. Fail Closed
 
 ---
 

@@ -44,8 +44,6 @@ export class IntentionTranslationLoop {
    * Phase 1: CAPTURE - Parse raw input into structured intention
    */
   async capture(input: RawInput): Promise<ParsedIntention> {
-    const startTime = new Date();
-
     // Extract goal and classify intent
     const category = this.classifyIntent(input.content);
     const confidence = this.assessConfidence(input.content, category);
