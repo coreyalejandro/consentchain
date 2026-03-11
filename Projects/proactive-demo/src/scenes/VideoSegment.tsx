@@ -2,6 +2,10 @@ import { AbsoluteFill, Sequence, staticFile, useVideoConfig } from "remotion";
 import { Video } from "@remotion/media";
 import { CaptionOverlay } from "../components/CaptionOverlay";
 import { SubtleZoom } from "../components/SubtleZoom";
+import { VignetteOverlay } from "../components/VignetteOverlay";
+
+/** Default crop-zoom to reduce visible cursor at edges */
+const CROP_ZOOM = 1.03;
 
 type CaptionConfig = {
   readonly text: string;
@@ -31,16 +35,23 @@ export const VideoSegment: React.FC<VideoSegmentProps> = ({
   const { fps } = useVideoConfig();
 
   const videoContent = (
-    <Video
-      src={staticFile("demo-raw.mp4")}
-      trimBefore={startSec * fps}
-      trimAfter={endSec * fps}
+    <AbsoluteFill
       style={{
-        width: "100%",
-        height: "100%",
-        objectFit: "cover",
+        transform: `scale(${CROP_ZOOM})`,
+        overflow: "hidden",
       }}
-    />
+    >
+      <Video
+        src={staticFile("demo-raw.mp4")}
+        trimBefore={startSec * fps}
+        trimAfter={endSec * fps}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      />
+    </AbsoluteFill>
   );
 
   return (
@@ -56,6 +67,8 @@ export const VideoSegment: React.FC<VideoSegmentProps> = ({
       ) : (
         videoContent
       )}
+
+      <VignetteOverlay intensity={0.5} />
 
       {captions.map((caption) => {
         const fromFrame = Math.round(caption.startSec * fps);
