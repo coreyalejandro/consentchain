@@ -1,3 +1,4 @@
+import { AbsoluteFill, Audio, staticFile } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
 import { SCENES, FADE_DURATION_FRAMES } from "./config/scenes";
@@ -6,7 +7,9 @@ import { VideoSegment } from "./scenes/VideoSegment";
 
 export const ProactiveDemo: React.FC = () => {
   return (
-    <TransitionSeries>
+    <AbsoluteFill>
+      <Audio src={staticFile("voiceover.mp3")} volume={1} />
+      <TransitionSeries>
       {SCENES.map((scene, index) => {
         const isLast = index === SCENES.length - 1;
 
@@ -37,6 +40,7 @@ export const ProactiveDemo: React.FC = () => {
           ) : null,
         ];
       })}
-    </TransitionSeries>
+      </TransitionSeries>
+    </AbsoluteFill>
   );
 };
