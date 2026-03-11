@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/*.cjs
+.pnpm-store
+
+# Build and output
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+.remotion/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# OS generated
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and editors
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Cursor / agent (keep repo clean; optional: commit shared rules)
+.cursor/rules/openmemory.mdc
+.agentuity-crash*.json
+.cursor/projects/*/terminals/
+.cursor/projects/*/agent-transcripts/
+
+# Logs and debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# Cache and temp
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.stylelintcache
+*.cache
+.temp/
+tmp/
+temp/
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Package manager lock (optional: remove if you want to commit lockfiles)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Vercel / Netlify (if you deploy)
+.vercel
+.netlify
+
+# Worktrees
+.worktrees/
+
+# Misc
+*.bak
+*.orig
+*.rej
+.cache
