@@ -15,7 +15,7 @@ I design safety-critical systems that prevent harm across AI, human decision-mak
 
 | Domain | What It Prevents | Product | Status |
 |--------|-----------------|---------|--------|
-| **Epistemic Safety** | False claims, hallucinations, phantom completions | [PROACTIVE](https://github.com/coreyalejandro/28441830) | Implemented |
+| **Epistemic Safety** | False claims, hallucinations, phantom completions | [PROACTIVE](https://gitlab.com/gitlab-ai-hackathon/participants/28441830) (GitLab) | Implemented |
 | **Human Safety** | Cognitive overload, inaccessible design, loop entrapment | [UICare-System](https://github.com/coreyalejandro/uicare-system) | Partial |
 | **Cognitive Safety** | Misunderstanding, flawed mental models, unsafe learning | [Instructional Integrity UI](https://github.com/coreyalejandro/instructional-integrity-ui) | Prototype |
 | **Empirical Safety** | Consent opacity, action untraceability, unmeasured safety | [ConsentChain](https://github.com/coreyalejandro/consentchain) | Partial |
@@ -40,11 +40,11 @@ SentinelOS is not a standalone product. It is the invariant-enforcement substrat
 - **PROACTIVE**: Validated constitutional AI safety agent — 100% detection rate on n=200 TruthfulQA samples, 0% false positives. GitLab Duo + Claude Code agents, CI/CD pipeline, full test suite.
 - **UICare-System**: MonitorAgent + RescueAgent for neurodivergent-friendly development. Shakespeare confidante metaphor. Loop detection and rescue. Docker + K8s deployment. Agents not yet in production.
 - **ConsentChain**: Turborepo monorepo, 8 packages — agent-sdk, ledger, policy-engine, idempotency, step-up, vault-client, google-executor, shared. Cryptographic consent ledger with policy engine and step-up auth. No production deployment yet.
-- **Instructional Integrity UI**: Working prototype with evaluator interface, rubric system, and evidence states. Grounded in 25+ years of education and instructional design.
+- **Instructional Integrity UI**: Working prototype with evaluator interface, rubric system, and evidence states. Grounded in 35 years of education and instructional design.
 
 ## Background
 
-25+ years in education, instructional design, and student affairs before AI. The same doctrine — safety as the whole system — applied to learning environments before it applied to AI systems. Built from lived experience as a neurodivergent person navigating systems that were not designed for safety.
+35 years in education, instructional design, and student affairs before AI. The same doctrine — safety as the whole system — applied to learning environments before it applied to AI systems. Built from lived experience as a neurodivergent person navigating systems that were not designed for safety.
 
 ---
 

@@ -19,7 +19,7 @@ Safety Systems Designer — AI, Human, and Cognitive Safety
 
 I design safety-critical systems that prevent harm across AI, human decision-making, and learning environments. My work spans four safety domains — Epistemic, Human, Cognitive, and Empirical Safety — unified under SentinelOS, an AI safety operating layer enforcing six invariants at every system boundary.
 
-Previously: 25+ years in education, instructional design, and student affairs. The same doctrine applied to learning environments before AI.
+Previously: 35 years in education, instructional design, and student affairs. The same doctrine applied to learning environments before AI.
 
 Doctrine: Safety is the whole system. No failure is meaningless.
 
@@ -71,7 +71,7 @@ Loop detection and rescue system for neurodivergent-friendly development. Uses a
 
 **What it does:** UICare watches for signs that a developer (especially neurodivergent developers) is stuck in an unproductive loop — not by tracking keystrokes, but by noticing the absence of forward motion. When it detects entrapment, it offers rescue through the RescueAgent.
 
-**Built with:** TypeScript, GPT-4-mini, Docker, Kubernetes, React
+**Built with:** TypeScript, GPT-4o-mini, Docker, Kubernetes, React
 **Status:** Partial — agents built, web UI exists, not yet in production
 
 ---
@@ -96,7 +96,7 @@ Cryptographic consent governance for AI agents. Every agent action must be conse
 ### Instructional Integrity UI — Cognitive Safety Evaluator
 **Domain:** Cognitive Safety
 
-Evaluator interface for assessing instructional artifacts against cognitive safety rubrics. Grounded in 25+ years of education and instructional design work.
+Evaluator interface for assessing instructional artifacts against cognitive safety rubrics. Grounded in 35 years of education and instructional design work.
 
 **Key features:**
 - Rubric system with evidence states

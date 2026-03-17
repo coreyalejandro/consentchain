@@ -18,7 +18,7 @@ Safety Systems Designer. Four domains: Epistemic, Human, Cognitive, Empirical Sa
 
 ## Conference Bio (300 chars)
 
-Corey Alejandro designs safety-critical systems across AI, human decision-making, and learning environments. His work spans four safety domains with SentinelOS as the AI safety operating layer. PROACTIVE, his constitutional AI safety agent, achieved 100% detection on n=200 TruthfulQA samples. Previously: 25+ years in education and student affairs.
+Corey Alejandro designs safety-critical systems across AI, human decision-making, and learning environments. His work spans four safety domains with SentinelOS as the AI safety operating layer. PROACTIVE, his constitutional AI safety agent, achieved 100% detection on n=200 TruthfulQA samples. Previously: 35 years in education and student affairs.
 
 ## Hashtags
 

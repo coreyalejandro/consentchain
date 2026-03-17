@@ -9,7 +9,7 @@
 
 ## Headline
 
-Safety Systems Design | AI, Human, and Cognitive Safety | Course Developer + Instructor (25 yr Education Arc)
+Safety Systems Design | AI, Human, and Cognitive Safety | Course Developer + Instructor (35 yr Education Arc)
 
 ## About
 
@@ -21,17 +21,17 @@ My work spans four safety domains:
 
 -- Human Safety — preventing systems from dis-enabling people through cognitive overload and inaccessible design. UICare-System detects when neurodivergent developers are stuck in repetitive loops and provides targeted rescue. Core innovation: "Reading the Room" — absence-over-presence detection.
 
--- Cognitive Safety — preventing misunderstanding and flawed mental models in learning environments. Instructional Integrity UI evaluates instructional artifacts for cognitive safety. This domain draws directly on 25+ years of education, instructional design, and student affairs work.
+-- Cognitive Safety — preventing misunderstanding and flawed mental models in learning environments. Instructional Integrity UI evaluates instructional artifacts for cognitive safety. This domain draws directly on 35 years of education, instructional design, and student affairs work.
 
 -- Empirical Safety — proving safety through measurement and verifiable evidence chains. ConsentChain provides cryptographic consent governance for AI agents — every action consented, logged, and revocable.
 
 SentinelOS is the AI safety operating layer — six invariants (I1-I6) enforced at every system boundary across all products.
 
-I am building an agent orientation course (8 modules) designed for platforms like Coursera and IBM Skills Mastery — bringing the same instructional rigor I applied across 25 years of education into AI safety training.
+I am building an agent orientation course (8 modules) designed for platforms like Coursera and IBM Skills Mastery — bringing the same instructional rigor I applied across 35 years of education into AI safety training.
 
 Doctrine: Safety is the whole system. No failure is meaningless.
 
-Previously: 25+ years in education, instructional design, and student affairs — designing safe learning environments before applying the same doctrine to AI systems.
+Previously: 35 years in education, instructional design, and student affairs — designing safe learning environments before applying the same doctrine to AI systems.
 
 ## Experience Section
 
@@ -42,7 +42,7 @@ Previously: 25+ years in education, instructional design, and student affairs �
 - Prototyping Instructional Integrity UI — evaluator interface with rubric system for cognitive safety
 - Developing agent orientation course (8 modules) for AI safety practitioner training
 
-### Education and Instructional Design (25+ years)
+### Education and Instructional Design (35 years)
 - Designed curricula, learning assessments, and instructional systems across K-12 and higher education
 - Built evaluation frameworks grounded in evidence-based pedagogy
 - Applied safety-first thinking to student affairs, accessibility, and learning environment design
@@ -96,7 +96,7 @@ Previously: 25+ years in education, instructional design, and student affairs �
 
 When applying to teach or build courses on these platforms, emphasize:
 
-1. **25+ years of instructional design** is the primary qualification — not AI engineering
+1. **35 years of instructional design** is the primary qualification — not AI engineering
 2. **The agent orientation course (8 modules)** is the product being offered
 3. **Cognitive Safety** is the bridge — it connects the education arc to the AI safety domain
 4. **Evidence of rigor**: PROACTIVE's validation methodology (n=200, 0% false positives) demonstrates the same measurement discipline applied to course outcomes

@@ -15,17 +15,17 @@ Safety Systems Designer. AI + Human + Cognitive.
 
 ### 160-Character Bio
 ```
-I design safety-critical systems that prevent harm across AI, human decision-making, and learning environments. 4 domains. 25+ years in education before AI.
+I design safety-critical systems that prevent harm across AI, human decision-making, and learning environments. 4 domains. 35 years in education before AI.
 ```
 
 ### 300-Character Bio
 ```
-Corey Alejandro designs safety-critical systems across AI, human decision-making, and learning environments. Four domains: Epistemic, Human, Cognitive, and Empirical Safety — unified under SentinelOS. PROACTIVE achieved 100% detection on n=200 TruthfulQA. Previously: 25+ years in education and student affairs.
+Corey Alejandro designs safety-critical systems across AI, human decision-making, and learning environments. Four domains: Epistemic, Human, Cognitive, and Empirical Safety — unified under SentinelOS. PROACTIVE achieved 100% detection on n=200 TruthfulQA. Previously: 35 years in education and student affairs.
 ```
 
 ### Full Paragraph Bio
 
-I design safety-critical systems that prevent harm across AI, human decision-making, and learning environments. My work spans four safety domains: Epistemic Safety (preventing false claims and hallucinated outputs), Human Safety (preventing systems from dis-enabling people), Cognitive Safety (preventing misunderstanding and flawed mental models in learning environments), and Empirical Safety (measuring and validating that safety systems actually work). SentinelOS is the AI safety operating layer — the invariant-enforcement platform that all products run on. PROACTIVE is a validated epistemic safety product (100% detection rate, n=200 TruthfulQA). UICare addresses human-preservation safety. Instructional Integrity UI brings 25 years of education and cognitive safety work into the AI era. This is not a collection of projects — it is a coherent system of safety thinking applied across domains, built by someone who has spent 25+ years making environments safe before asking people to work in them.
+I design safety-critical systems that prevent harm across AI, human decision-making, and learning environments. My work spans four safety domains: Epistemic Safety (preventing false claims and hallucinated outputs), Human Safety (preventing systems from dis-enabling people), Cognitive Safety (preventing misunderstanding and flawed mental models in learning environments), and Empirical Safety (measuring and validating that safety systems actually work). SentinelOS is the AI safety operating layer — the invariant-enforcement platform that all products run on. PROACTIVE is a validated epistemic safety product (100% detection rate, n=200 TruthfulQA). UICare addresses human-preservation safety. Instructional Integrity UI brings 35 years of education and cognitive safety work into the AI era. This is not a collection of projects — it is a coherent system of safety thinking applied across domains, built by someone who has spent 35 years making environments safe before asking people to work in them.
 
 ## Headline
 

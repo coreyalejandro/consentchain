@@ -21,7 +21,7 @@ I design safety-critical systems that prevent harm across AI, human decision-mak
 
 My primary contribution to the AI safety field is PROACTIVE, a constitutional AI safety agent that achieved 100% detection rate on n=200 TruthfulQA samples with 0% false positives. PROACTIVE validates epistemic claims in AI-generated outputs before they reach production — treating epistemic reliability as a safety requirement, not a quality feature.
 
-Background: 25+ years in education and instructional design before transitioning to AI safety engineering. The same safety doctrine — every failure is a signal about the system — applies across both domains.
+Background: 35 years in education and instructional design before transitioning to AI safety engineering. The same safety doctrine — every failure is a signal about the system — applies across both domains.
 
 ## Expertise Areas
 
@@ -66,7 +66,7 @@ Cryptographic consent governance for AI agents. Turborepo monorepo with 8 packag
 **Status:** Partial — architecture complete, no production deployment
 
 ### Instructional Integrity UI (Cognitive Safety)
-Evaluator interface with rubric system for assessing instructional artifacts against cognitive safety standards. Grounded in 25+ years of education work.
+Evaluator interface with rubric system for assessing instructional artifacts against cognitive safety standards. Grounded in 35 years of education work.
 **Status:** Prototype
 
 ## Technologies
