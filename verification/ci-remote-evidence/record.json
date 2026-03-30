@@ -2,12 +2,12 @@
   "schema_version": "1.0.0",
   "claimed_remote": true,
   "workflow_conclusion": "success",
-  "workflow_run_id": "23757931238",
-  "workflow_run_url": "https://github.com/coreyalejandro/consentchain/actions/runs/23757931238",
+  "workflow_run_id": "23760900560",
+  "workflow_run_url": "https://github.com/coreyalejandro/consentchain/actions/runs/23760900560",
   "workflow_run_attempt": "1",
-  "artifact_name": "governance-verification-runs-23757931238-1",
-  "artifact_commit_hash": "db30d76f15e54a8d4b073a59ad554e40d64fc677",
+  "artifact_name": "governance-verification-runs-23760900560-1",
+  "artifact_commit_hash": "108847769113e965868c3b8da1b5365965d05348",
   "artifact_upload_succeeded": true,
-  "captured_at_utc": "2026-03-30T17:25:00Z",
-  "notes": "PASS 9 remote closure: green run 23757931238 on db30d76 (main); full pipeline including verify_cross_repo_consistency vs TLC branch feature/c-rsp-pass3-ci-provenance checkout; topology, governance, institutionalization, failure-injection, artifact upload+self-verify."
+  "captured_at_utc": "2026-03-30T18:40:00Z",
+  "notes": "Mainline convergence (C-RSP): green run 23760900560 on 1088477 (main); TLC canonical checkout ref main; full pipeline including verify_cross_repo_consistency; topology, governance chain (parity), institutionalization, failure-injection, artifact upload+self-verify."
 }

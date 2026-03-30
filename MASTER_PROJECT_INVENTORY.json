@@ -2,7 +2,7 @@
   "meta": {
     "phase": "0",
     "inventory_kind": "consentchain_governance_inventory",
-    "generated_at_utc": "2026-03-30T19:30:00Z",
+    "generated_at_utc": "2026-03-30T18:40:00Z",
     "repo": "coreyalejandro/consentchain",
     "pass": "PASS9+PASS10A",
     "notes": [
@@ -10,10 +10,10 @@
     ]
   },
   "ci_provenance": {
-    "last_verified_run_id": "23757931238",
-    "last_verified_commit": "db30d76f15e54a8d4b073a59ad554e40d64fc677",
-    "last_remote_qualifying_commit": "db30d76f15e54a8d4b073a59ad554e40d64fc677",
-    "artifact_name": "governance-verification-runs-23757931238-1",
+    "last_verified_run_id": "23760900560",
+    "last_verified_commit": "108847769113e965868c3b8da1b5365965d05348",
+    "last_remote_qualifying_commit": "108847769113e965868c3b8da1b5365965d05348",
+    "artifact_name": "governance-verification-runs-23760900560-1",
     "verify_workflow_sha256": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1",
     "verify_workflow_sha256_at_last_remote_run": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1",
     "status": "pending",
