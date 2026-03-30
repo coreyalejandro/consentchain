@@ -6,7 +6,7 @@
   "workflow_run_url": "",
   "workflow_run_attempt": "",
   "artifact_name": "",
-  "artifact_commit_hash": "43ef9e212933d89dc0cdea0479c37718a5ac5d4a",
+  "artifact_commit_hash": "a69e135791c572ee30409b67955eb233acbd9712",
   "artifact_upload_succeeded": false,
   "captured_at_utc": "2026-03-30T16:00:00Z",
   "notes": "PASS 8 bootstrap: set claimed_remote true and fill fields after first qualifying green GitHub Actions run; human updates inventory (no CI writeback)."
