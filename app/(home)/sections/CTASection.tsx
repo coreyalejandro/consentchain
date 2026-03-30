@@ -70,7 +70,7 @@ export function CTASection() {
               <div className="flex gap-3">
                 <Link href="/contact">
                   <AudioButton
-                    description="Start creating with the Creative Chaos design system"
+                    description="Start creating with the ConsentChain design system"
                     className="bg-amber-400 hover:bg-amber-300 text-black font-semibold rounded-full px-6 py-3 inline-flex items-center"
                   >
                     <Heart className="w-4 h-4 mr-2" />

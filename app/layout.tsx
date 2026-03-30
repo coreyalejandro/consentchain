@@ -8,7 +8,7 @@ import { AnimationProvider } from "@/contexts/AnimationContext"
 import { ColorThemeProvider } from "@/contexts/ColorThemeContext"
 
 export const metadata: Metadata = {
-  title: "Creative Chaos - Neural Depth Design System",
+  title: "ConsentChain - Neural Depth Design System",
   description: "A revolutionary design system with living interfaces and immersive audio experiences for all users",
   generator: "v0.app",
 }

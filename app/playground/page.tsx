@@ -234,7 +234,7 @@ export default function PlaygroundPage() {
                 rotationIntensity={0.3}
               >
                 <div className="text-sm text-white/80 mb-2 font-semibold">
-                  {message.role === "user" ? "You" : "Creative Chaos AI"}
+                  {message.role === "user" ? "You" : "ConsentChain AI"}
                 </div>
                 <div className="text-white whitespace-pre-wrap">{message.content}</div>
               </FloatingCard>

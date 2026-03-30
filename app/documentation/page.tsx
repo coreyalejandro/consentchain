@@ -32,7 +32,7 @@ export default function DesignDocumentation() {
 
           <div className="space-y-6">
             <h1 className="text-6xl font-bold text-balance">
-              Creative Chaos
+              ConsentChain
               <span className="block text-4xl font-normal text-white/90 mt-2">Design System Documentation</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl text-pretty">

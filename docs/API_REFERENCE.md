@@ -1,4 +1,4 @@
-# Creative Chaos - API Reference
+# ConsentChain - API Reference
 
 Complete API documentation for all components and hooks.
 

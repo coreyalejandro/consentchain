@@ -1,5 +1,5 @@
-Local root: /Users/coreyalejandro/dev/coreys-agentic-portfolio
-Remote: https://github.com/coreyalejandro/v0-corey-alejandro-main-portfolio-site/tree/coreys-agentic-portfolio
+Local root: /Users/coreyalejandro/dev/consentchain
+Remote: https://github.com/coreyalejandro/v0-corey-alejandro-main-portfolio-site/tree/consentchain
 Remote commit: 1eb0ae8dab5376b1e9b931882d5368998252ec90
 Remote tree: b7a5e7fc9185d886917128e80181c79de2983ac5
 Local files: 199

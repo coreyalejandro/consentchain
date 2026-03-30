@@ -79,7 +79,7 @@ Safety is the whole system. No failure is meaningless.
 | GitHub | [github.com/coreyalejandro](https://github.com/coreyalejandro) |
 | GitLab | [gitlab.com/coreyalejandro](https://gitlab.com/coreyalejandro) |
 | LinkedIn | [linkedin.com/in/coreyalejandro](https://linkedin.com/in/coreyalejandro) |
-| Portfolio | [coreys-agentic-portfolio] (link TBD) |
+| Portfolio | [consentchain] (link TBD) |
 | Devpost | [devpost.com/coreyalejandro](https://devpost.com/coreyalejandro) |
 
 ## Avatar / Headshot Guidance

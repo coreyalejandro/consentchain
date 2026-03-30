@@ -38,11 +38,11 @@ Key signals for this audience:
 ### Creative/Design Profile
 
 **Audience:** Design-forward companies, creative technologists, innovation teams
-**Format:** Portfolio visual surface, Creative Chaos design system docs
-**Emphasis:** Creative Chaos, interactive demos, animation + 3D effects
+**Format:** Portfolio visual surface, ConsentChain design system docs
+**Emphasis:** ConsentChain, interactive demos, animation + 3D effects
 
 Key signals for this audience:
-- Creative Chaos design system: breathing backgrounds, 3D perspective, organic positioning
+- ConsentChain design system: breathing backgrounds, 3D perspective, organic positioning
 - Audio experience layer with narration hooks
 - Playground: live AI + UI experiments
 - Remotion video demo: programmatic video with React

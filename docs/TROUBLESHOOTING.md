@@ -1,4 +1,4 @@
-# Creative Chaos - Complete Troubleshooting Guide
+# ConsentChain - Complete Troubleshooting Guide
 
 ## Table of Contents
 1. [Quick Diagnostics](#quick-diagnostics)

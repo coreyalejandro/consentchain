@@ -366,7 +366,7 @@ export default function ResumeTemplate() {
                         className="font-medium transition-colors duration-3000"
                         style={{ color: "var(--theme-primary)" }}
                       >
-                        Creative Chaos Design System
+                        ConsentChain Design System
                       </p>
                     </div>
                     <span
@@ -385,7 +385,7 @@ export default function ResumeTemplate() {
                       features
                     </li>
                     <li>
-                      Built component library with 40+ reusable components following Creative Chaos design principles
+                      Built component library with 40+ reusable components following ConsentChain design principles
                     </li>
                     <li>
                       Implemented Web Audio API integration for immersive accessibility experiences beyond traditional

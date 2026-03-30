@@ -25,7 +25,7 @@ This document is the **Single Source of Truth** for the Anthropic AI Safety Fell
 ## 🎨 Design Systems & Styles (NON-NEGOTIABLE)
 
 ### 1. Chaos (Maximalist) Style
-- **Target**: ONLY the primary portfolio (`/Users/coreyalejandro/dev/coreys-agentic-portfolio`).
+- **Target**: ONLY the primary portfolio (`/Users/coreyalejandro/dev/consentchain`).
 - **Rules**: Follow established Chaos rules; reflect spirit and aesthetic; high-fidelity interaction.
 - **Goal**: Reflect AI-Safety focus in content without sacrificing the Maximalist aesthetic.
 

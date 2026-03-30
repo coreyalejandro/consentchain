@@ -1,4 +1,4 @@
-# Creative Chaos Design System - Complete Handbook
+# ConsentChain Design System - Complete Handbook
 
 **Version:** 1.0.0  
 **Last Updated:** November 2025  
@@ -23,9 +23,9 @@
 
 ## Philosophy
 
-### The Creative Chaos Manifesto
+### The ConsentChain Manifesto
 
-Creative Chaos is a design system built on three revolutionary principles:
+ConsentChain is a design system built on three revolutionary principles:
 
 1. **Deep Saturated Gradients** - Colors that pulse with life and energy
 2. **Organic Positioning** - Elements that breathe and move naturally
@@ -47,7 +47,7 @@ This system rejects the sterile, corporate aesthetic of modern SaaS design in fa
 
 ### Overview
 
-The Creative Chaos Audio Experience System provides a revolutionary approach to web accessibility that goes beyond screen readers. It creates a spatial, immersive 3D audio environment where blind and visually impaired users experience the web as a sonic universe.
+The ConsentChain Audio Experience System provides a revolutionary approach to web accessibility that goes beyond screen readers. It creates a spatial, immersive 3D audio environment where blind and visually impaired users experience the web as a sonic universe.
 
 ### Architecture
 
@@ -144,7 +144,7 @@ interface AudioSectionProps {
 \`\`\`tsx
 <AudioSection
   id="hero-section"
-  title="Welcome to Creative Chaos"
+  title="Welcome to ConsentChain"
   description="A revolutionary design system that brings interfaces to life"
   position={{ x: 0, y: 0, z: -100 }}
 >
@@ -429,7 +429,7 @@ narrate('Custom message', 'high', {
 
 ### Color System
 
-Creative Chaos uses deep, saturated gradients that pulse with energy. The system is built on CSS custom properties for easy theming.
+ConsentChain uses deep, saturated gradients that pulse with energy. The system is built on CSS custom properties for easy theming.
 
 #### Design Tokens
 
@@ -449,7 +449,7 @@ Creative Chaos uses deep, saturated gradients that pulse with energy. The system
 
 #### Gradient System
 
-Creative Chaos features five primary gradient types:
+ConsentChain features five primary gradient types:
 
 1. **Fire Gradient** (Orange → Pink → Purple)
    \`\`\`css
@@ -555,7 +555,7 @@ font-extrabold: 800
 
 ### Spacing
 
-Creative Chaos uses Tailwind's default spacing scale (0.25rem increments):
+ConsentChain uses Tailwind's default spacing scale (0.25rem increments):
 
 \`\`\`
 p-0: 0
@@ -608,7 +608,7 @@ p-32: 8rem (128px)
 
 ## Component Library
 
-### Creative Chaos Components
+### ConsentChain Components
 
 #### LaydownCard
 
@@ -787,7 +787,7 @@ interface OrganicTitleProps {
 import { OrganicTitle } from '@/components/creative-chaos/organic-title'
 
 <OrganicTitle 
-  text="Creative Chaos"
+  text="ConsentChain"
   gradient={true}
   className="text-6xl font-bold"
 />
@@ -858,7 +858,7 @@ import { FloatingParticles } from '@/components/creative-chaos/floating-particle
 
 #### FloatingNav
 
-**Purpose:** Persistent top navigation with Creative Chaos branding.
+**Purpose:** Persistent top navigation with ConsentChain branding.
 
 **Location:** `components/floating-nav.tsx`
 
@@ -880,7 +880,7 @@ import { FloatingNav } from '@/components/floating-nav'
 
 **Navigation Items:**
 
-- Creative Chaos (Home)
+- ConsentChain (Home)
 - Templates
 - Design System
 - Components
@@ -1125,7 +1125,7 @@ creative-chaos/
 │   │   ├── audio-toggle.tsx
 │   │   ├── audio-section.tsx
 │   │   └── audio-button.tsx
-│   ├── creative-chaos/           # Creative Chaos components
+│   ├── creative-chaos/           # ConsentChain components
 │   │   ├── breathing-background.tsx
 │   │   ├── floating-card.tsx
 │   │   ├── floating-particles.tsx
@@ -1253,7 +1253,7 @@ export function MyComponent({ title, description }: MyComponentProps) {
 
 ### WCAG Compliance
 
-Creative Chaos aims for WCAG 2.1 Level AA compliance:
+ConsentChain aims for WCAG 2.1 Level AA compliance:
 
 - **Perceivable:** Audio system provides alternative to visual content
 - **Operable:** Full keyboard navigation support
@@ -1281,7 +1281,7 @@ All components include:
 
 ### Audio-First Accessibility
 
-The Creative Chaos Audio Experience provides:
+The ConsentChain Audio Experience provides:
 
 1. **Spatial Navigation:** 3D audio positioning helps users build mental maps
 2. **Rich Feedback:** Every interaction has audio confirmation

@@ -59,7 +59,7 @@ Only these 5 repos should be public/pinned. Everything else: hidden or depriorit
 2. `uicare-system`
 3. `instructional-integrity-ui`
 4. `consentchain`
-5. `coreys-agentic-portfolio`
+5. `consentchain`
 
 ## Setup Notes
 

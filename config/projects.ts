@@ -4,11 +4,11 @@
 export const projects = [
   {
     id: "creative-chaos",
-    title: "Creative Chaos Design System",
+    title: "ConsentChain Design System",
     description:
       "A revolutionary design system that breaks all the rules with deep saturated gradients and living interfaces.",
     longDescription:
-      "Creative Chaos is a design system that challenges conventional UI/UX patterns. It features breathing backgrounds, 3D perspective effects, and organic positioning that creates truly unique web experiences.",
+      "ConsentChain is a design system that challenges conventional UI/UX patterns. It features breathing backgrounds, 3D perspective effects, and organic positioning that creates truly unique web experiences.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React"],
     githubUrl: "https://github.com/yourusername/creative-chaos",
     liveUrl: "https://creative-chaos.vercel.app",
@@ -20,7 +20,7 @@ export const projects = [
     challenge:
       "Most design systems prioritize minimalism and conformity, making every website look the same. How do we create interfaces that are both functional and emotionally engaging?",
     solution:
-      "By combining deep saturated gradients, organic positioning, and living animations, Creative Chaos creates interfaces that breathe and respond to user interaction, making every moment feel unique.",
+      "By combining deep saturated gradients, organic positioning, and living animations, ConsentChain creates interfaces that breathe and respond to user interaction, making every moment feel unique.",
     impact: "Achieved 95% user engagement increase and featured on Awwwards for innovative design approach.",
     featured: true,
   },

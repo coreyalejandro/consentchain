@@ -648,7 +648,7 @@ const [selectedProject, setSelectedProject] = useState(null)
     {
       name: "FloatingNav",
       category: "Navigation",
-      description: "Persistent floating navigation with Creative Chaos branding",
+      description: "Persistent floating navigation with ConsentChain branding",
       importPath: "@/components/floating-nav",
       code: `"use client"
 
@@ -667,7 +667,7 @@ export default function Layout() {
           <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
             <div className="bg-gradient-to-r from-orange-800/95 via-red-800/95 to-amber-800/95 backdrop-blur-xl border border-orange-600/40 rounded-full px-4 py-2 shadow-2xl">
               <div className="flex items-center space-x-4 text-sm text-white">
-                <span className="font-bold">Creative Chaos</span>
+                <span className="font-bold">ConsentChain</span>
                 <span className="text-orange-200">Templates</span>
                 <span className="text-orange-200">Components</span>
                 <span className="text-orange-200">Contact</span>
@@ -718,7 +718,7 @@ export default function Layout() {
             {/* Sidebar Header */}
             <div className="p-6 border-b border-white/10">
               <h1 className="text-2xl font-black text-white mb-2">Components</h1>
-              <p className="text-sm text-white/60">Creative Chaos Library</p>
+              <p className="text-sm text-white/60">ConsentChain Library</p>
             </div>
 
             {/* Component List */}

@@ -1,4 +1,4 @@
-# 🚀 Agent Handoff: coreys-agentic-portfolio
+# 🚀 Agent Handoff: consentchain
 
 > **🚨 CRITICAL PROTOCOL: HANDOFF UPDATE IS NON-NEGOTIABLE**
 >
@@ -38,8 +38,8 @@
   - Added Components link to nav bar: New link with `Box` icon positioned after Templates link, routes to `/components`
   - Reorganized nav items: Swapped Documentation and Design System positions (Documentation now on left, Design System on right)
 - **Repository setup:**
-  - Created new GitHub repository: `coreyalejandro/coreys-agentic-portfolio`
-  - Added remote: `coreys-agentic-portfolio` pointing to the new repository
+  - Created new GitHub repository: `coreyalejandro/consentchain`
+  - Added remote: `consentchain` pointing to the new repository
   - Pushed all changes to the new remote repository
 - **Previous work (from earlier session):**
   - CSS persisted (nav hover highlight): Updated `components/floating-nav.tsx` hover highlight overlays to avoid explicitly setting `left/top`
@@ -60,7 +60,7 @@
 - **Theme system:** Theme variables are defined in `app/globals.css` and updated by `contexts/ColorThemeContext.tsx` with compat aliases for reliability.
 - **Homepage sections:** Superpowers heading renders (no longer transparent).
 - **Resume section:** Background matches other sections; printable resume remains readable.
-- **Repository:** New remote `coreys-agentic-portfolio` is set up and synced.
+- **Repository:** New remote `consentchain` is set up and synced.
 
 ### Project Structure
 
@@ -132,8 +132,8 @@
 ### Git Workflow
 
 - Branch: main
-- Remote: `git@github.com:coreyalejandro/coreys-agentic-portfolio.git` (remote name: `coreys-agentic-portfolio`)
-- Repository: `coreyalejandro/coreys-agentic-portfolio`
+- Remote: `git@github.com:coreyalejandro/consentchain.git` (remote name: `consentchain`)
+- Repository: `coreyalejandro/consentchain`
 
 ## 🔧 Available Commands
 
@@ -160,9 +160,9 @@
 
 ## 📞 Quick Reference
 
-- **Project:** coreys-agentic-portfolio
-- **Repository:** coreyalejandro/coreys-agentic-portfolio
-- **Remote:** `git@github.com:coreyalejandro/coreys-agentic-portfolio.git`
+- **Project:** consentchain
+- **Repository:** coreyalejandro/consentchain
+- **Remote:** `git@github.com:coreyalejandro/consentchain.git`
 - **Branch:** main
 - **Last Commit:** 60b8397 - "Add standalone metadata and docs enforcement"
 

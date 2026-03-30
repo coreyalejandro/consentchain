@@ -2,7 +2,7 @@
 
 ## Overview
 
-Creative Chaos implements comprehensive security measures to protect users and prevent common web vulnerabilities.
+ConsentChain implements comprehensive security measures to protect users and prevent common web vulnerabilities.
 
 ## Security Headers
 

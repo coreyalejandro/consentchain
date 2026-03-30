@@ -150,12 +150,12 @@ export default function StyleGuidePage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-6xl font-bold text-white mb-6 text-balance">
-            Creative Chaos
+            ConsentChain
             <br />
             <span className="text-amber-200">Style Guide</span>
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Technical implementation guide for the Creative Chaos design system. Copy, paste, and create joyful
+            Technical implementation guide for the ConsentChain design system. Copy, paste, and create joyful
             interfaces that break conventions.
           </p>
         </div>

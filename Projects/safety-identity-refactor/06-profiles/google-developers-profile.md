@@ -83,5 +83,5 @@ Evaluator interface with rubric system for assessing instructional artifacts aga
 
 - GitHub: [github.com/coreyalejandro](https://github.com/coreyalejandro)
 - GitLab: [gitlab.com/coreyalejandro](https://gitlab.com/coreyalejandro)
-- Portfolio: [coreys-agentic-portfolio] (link TBD)
+- Portfolio: [consentchain] (link TBD)
 - LinkedIn: [linkedin.com/in/coreyalejandro](https://linkedin.com/in/coreyalejandro)

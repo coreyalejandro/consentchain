@@ -1,37 +1,22 @@
-# AWS Agentic AI
+# ConsentChain
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+ConsentChain is the governed implementation checkout for the ConsentChain family under **The Living Constitution** (TLC). Canonical path: `/Users/coreyalejandro/Projects/the-living-constitution/projects/consentchain` (git submodule). Path semantics (prior sibling checkout vs TLC submodule): see TLC `04-consentchain/REGISTRY_PATH_MIGRATION.md`.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/coreyalejandro-team/v0-aws-agentic-ai)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/icPcDLMpHxi)
+## Verification commands
 
-## Overview
+From the repository root:
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+```bash
+pnpm install --frozen-lockfile
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
+```
 
-## Deployment
+## Agent handoff
 
-Your project is live at:
-
-**[https://vercel.com/coreyalejandro-team/v0-aws-agentic-ai](https://vercel.com/coreyalejandro-team/v0-aws-agentic-ai)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/icPcDLMpHxi](https://v0.app/chat/icPcDLMpHxi)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
-
-## Agent Handoff (Continuity)
-
-This repository uses `HANDOFF.md` to preserve continuity between sessions (human + AI).
+This repository may use `HANDOFF.md` for session continuity.
 
 - **Validate `HANDOFF.md` format**: `pnpm handoff:check`
 - **Create `HANDOFF.md` from template** (if missing): `pnpm handoff:init`

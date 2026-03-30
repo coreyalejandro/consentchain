@@ -210,7 +210,7 @@ export function AudioEngineProvider({ children }: { children: React.ReactNode })
     })
 
     setTimeout(() => {
-      narrateSection("welcome", "Welcome to Creative Chaos. An immersive audio journey through design and innovation.")
+      narrateSection("welcome", "Welcome to ConsentChain. An immersive audio journey through design and innovation.")
     }, 1200)
   }, [createSafeOscillator])
 
@@ -343,7 +343,7 @@ export function AudioEngineProvider({ children }: { children: React.ReactNode })
         setTimeout(() => {
           try {
             const utterance = new SpeechSynthesisUtterance(
-              "Audio experience activated. You are now in the Creative Chaos sound universe.",
+              "Audio experience activated. You are now in the ConsentChain sound universe.",
             )
             utterance.rate = 1.1
             utterance.volume = volume

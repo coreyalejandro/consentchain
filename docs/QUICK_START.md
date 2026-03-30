@@ -1,6 +1,6 @@
-# Creative Chaos - Quick Start Guide
+# ConsentChain - Quick Start Guide
 
-Get up and running with Creative Chaos in 5 minutes.
+Get up and running with ConsentChain in 5 minutes.
 
 ## Installation
 

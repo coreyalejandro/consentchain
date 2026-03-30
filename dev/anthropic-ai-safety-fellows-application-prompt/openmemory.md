@@ -10,7 +10,7 @@ Memory = accumulated understanding of codebase + user preferences.
 - **Narrative Through-line:** "Safety as Home" — creating spaces for neuro-diversity and empathy.
 
 ## 🎨 Design Systems (User Preference)
-- **Chaos (Maximalist):** ONLY for `/Users/coreyalejandro/dev/coreys-agentic-portfolio`.
+- **Chaos (Maximalist):** ONLY for `/Users/coreyalejandro/dev/consentchain`.
 - **Minimalist:** For all other new software and product-based projects.
 - **STRICTLY FORBIDDEN:** SAAS cookie-cutter templates or palettes.
 

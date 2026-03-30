@@ -25,7 +25,7 @@ export function HeroSection() {
     <AudioSection
       id="hero"
       title="Hero Section - Neural Depth Magic"
-      description="Experience the Creative Chaos design philosophy. Living gradients, organic motion, and joyful interactions that breathe with every scroll."
+      description="Experience the ConsentChain design philosophy. Living gradients, organic motion, and joyful interactions that breathe with every scroll."
       position={{ x: 0, y: 0, z: -5 }}
     >
       <section className="relative min-h-screen rounded-3xl mb-16">

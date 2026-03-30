@@ -5,7 +5,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ## Repo
 
-- Name: coreys-agentic-portfolio
+- Name: consentchain
 - Root: .
 - Last Updated: 2025-12-25T03:34:05.758Z
 
@@ -19,7 +19,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Portfolio App Shell
 
-- ID: coreys-agentic-portfolio/app-shell
+- ID: consentchain/app-shell
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -34,7 +34,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### UI Components
 
-- ID: coreys-agentic-portfolio/ui-components
+- ID: consentchain/ui-components
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -49,7 +49,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Styles System
 
-- ID: coreys-agentic-portfolio/styles-system
+- ID: consentchain/styles-system
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -64,7 +64,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Data Layer
 
-- ID: coreys-agentic-portfolio/data-layer
+- ID: consentchain/data-layer
 - Type: package
 - Status: active
 - Version: 0.1.0
@@ -79,7 +79,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Hooks
 
-- ID: coreys-agentic-portfolio/hooks
+- ID: consentchain/hooks
 - Type: package
 - Status: active
 - Version: 0.1.0
@@ -94,7 +94,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Middleware
 
-- ID: coreys-agentic-portfolio/middleware
+- ID: consentchain/middleware
 - Type: service
 - Status: active
 - Version: 0.1.0
@@ -109,7 +109,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Public Assets
 
-- ID: coreys-agentic-portfolio/public-assets
+- ID: consentchain/public-assets
 - Type: doc
 - Status: active
 - Version: 0.1.0
@@ -124,7 +124,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Docs
 
-- ID: coreys-agentic-portfolio/docs
+- ID: consentchain/docs
 - Type: doc
 - Status: active
 - Version: 0.1.0
@@ -139,7 +139,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Component Inventory System
 
-- ID: coreys-agentic-portfolio/component-inventory-system
+- ID: consentchain/component-inventory-system
 - Type: workflow
 - Status: active
 - Version: 0.1.0
@@ -154,7 +154,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Animations / Breathingbackground
 
-- ID: coreys-agentic-portfolio/components/animations/BreathingBackground
+- ID: consentchain/components/animations/BreathingBackground
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -169,7 +169,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Animations / Floatingelement
 
-- ID: coreys-agentic-portfolio/components/animations/FloatingElement
+- ID: consentchain/components/animations/FloatingElement
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -184,7 +184,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Animations / Floatingorb
 
-- ID: coreys-agentic-portfolio/components/animations/FloatingOrb
+- ID: consentchain/components/animations/FloatingOrb
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -199,7 +199,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Animations / Index
 
-- ID: coreys-agentic-portfolio/components/animations/index
+- ID: consentchain/components/animations/index
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -214,7 +214,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Audio Experience / Audio Button
 
-- ID: coreys-agentic-portfolio/components/audio-experience/audio-button
+- ID: consentchain/components/audio-experience/audio-button
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -229,7 +229,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Audio Experience / Audio Engine
 
-- ID: coreys-agentic-portfolio/components/audio-experience/audio-engine
+- ID: consentchain/components/audio-experience/audio-engine
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -244,7 +244,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Audio Experience / Audio Section
 
-- ID: coreys-agentic-portfolio/components/audio-experience/audio-section
+- ID: consentchain/components/audio-experience/audio-section
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -259,7 +259,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Audio Experience / Audio Toggle
 
-- ID: coreys-agentic-portfolio/components/audio-experience/audio-toggle
+- ID: consentchain/components/audio-experience/audio-toggle
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -274,7 +274,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Card Path / Card Path Scene
 
-- ID: coreys-agentic-portfolio/components/card-path/card-path-scene
+- ID: consentchain/components/card-path/card-path-scene
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -289,7 +289,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Card Path / Path Card
 
-- ID: coreys-agentic-portfolio/components/card-path/path-card
+- ID: consentchain/components/card-path/path-card
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -302,9 +302,9 @@ Run `pnpm component-inventory:build` after updating the registry.
   - Outputs: rendered UI
 - Dependencies: none
 
-### Creative Chaos / Breathing Background
+### ConsentChain / Breathing Background
 
-- ID: coreys-agentic-portfolio/components/creative-chaos/breathing-background
+- ID: consentchain/components/creative-chaos/breathing-background
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -317,9 +317,9 @@ Run `pnpm component-inventory:build` after updating the registry.
   - Outputs: rendered UI
 - Dependencies: none
 
-### Creative Chaos / Floating Card
+### ConsentChain / Floating Card
 
-- ID: coreys-agentic-portfolio/components/creative-chaos/floating-card
+- ID: consentchain/components/creative-chaos/floating-card
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -332,9 +332,9 @@ Run `pnpm component-inventory:build` after updating the registry.
   - Outputs: rendered UI
 - Dependencies: none
 
-### Creative Chaos / Floating Particles
+### ConsentChain / Floating Particles
 
-- ID: coreys-agentic-portfolio/components/creative-chaos/floating-particles
+- ID: consentchain/components/creative-chaos/floating-particles
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -347,9 +347,9 @@ Run `pnpm component-inventory:build` after updating the registry.
   - Outputs: rendered UI
 - Dependencies: none
 
-### Creative Chaos / Organic Title
+### ConsentChain / Organic Title
 
-- ID: coreys-agentic-portfolio/components/creative-chaos/organic-title
+- ID: consentchain/components/creative-chaos/organic-title
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -364,7 +364,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Custom Icons
 
-- ID: coreys-agentic-portfolio/components/custom-icons
+- ID: consentchain/components/custom-icons
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -379,7 +379,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Floating Nav
 
-- ID: coreys-agentic-portfolio/components/floating-nav
+- ID: consentchain/components/floating-nav
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -394,7 +394,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Laydown Card
 
-- ID: coreys-agentic-portfolio/components/laydown-card
+- ID: consentchain/components/laydown-card
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -409,7 +409,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Playground / Card Path Demo
 
-- ID: coreys-agentic-portfolio/components/playground/card-path-demo
+- ID: consentchain/components/playground/card-path-demo
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -424,7 +424,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Playground / Scroll Card Demo
 
-- ID: coreys-agentic-portfolio/components/playground/scroll-card-demo
+- ID: consentchain/components/playground/scroll-card-demo
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -439,7 +439,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Playground / Table Card Demo
 
-- ID: coreys-agentic-portfolio/components/playground/table-card-demo
+- ID: consentchain/components/playground/table-card-demo
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -454,7 +454,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Project Modal
 
-- ID: coreys-agentic-portfolio/components/project-modal
+- ID: consentchain/components/project-modal
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -469,7 +469,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Theme Provider
 
-- ID: coreys-agentic-portfolio/components/theme-provider
+- ID: consentchain/components/theme-provider
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -484,7 +484,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Accordion
 
-- ID: coreys-agentic-portfolio/components/ui/accordion
+- ID: consentchain/components/ui/accordion
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -499,7 +499,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Alert Dialog
 
-- ID: coreys-agentic-portfolio/components/ui/alert-dialog
+- ID: consentchain/components/ui/alert-dialog
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -514,7 +514,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Alert
 
-- ID: coreys-agentic-portfolio/components/ui/alert
+- ID: consentchain/components/ui/alert
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -529,7 +529,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Aspect Ratio
 
-- ID: coreys-agentic-portfolio/components/ui/aspect-ratio
+- ID: consentchain/components/ui/aspect-ratio
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -544,7 +544,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Avatar
 
-- ID: coreys-agentic-portfolio/components/ui/avatar
+- ID: consentchain/components/ui/avatar
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -559,7 +559,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Badge
 
-- ID: coreys-agentic-portfolio/components/ui/badge
+- ID: consentchain/components/ui/badge
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -574,7 +574,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Breadcrumb
 
-- ID: coreys-agentic-portfolio/components/ui/breadcrumb
+- ID: consentchain/components/ui/breadcrumb
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -589,7 +589,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Button
 
-- ID: coreys-agentic-portfolio/components/ui/button
+- ID: consentchain/components/ui/button
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -604,7 +604,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Calendar
 
-- ID: coreys-agentic-portfolio/components/ui/calendar
+- ID: consentchain/components/ui/calendar
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -619,7 +619,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Card
 
-- ID: coreys-agentic-portfolio/components/ui/card
+- ID: consentchain/components/ui/card
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -634,7 +634,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Carousel
 
-- ID: coreys-agentic-portfolio/components/ui/carousel
+- ID: consentchain/components/ui/carousel
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -649,7 +649,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Chart
 
-- ID: coreys-agentic-portfolio/components/ui/chart
+- ID: consentchain/components/ui/chart
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -664,7 +664,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Checkbox
 
-- ID: coreys-agentic-portfolio/components/ui/checkbox
+- ID: consentchain/components/ui/checkbox
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -679,7 +679,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Collapsible
 
-- ID: coreys-agentic-portfolio/components/ui/collapsible
+- ID: consentchain/components/ui/collapsible
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -694,7 +694,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Command
 
-- ID: coreys-agentic-portfolio/components/ui/command
+- ID: consentchain/components/ui/command
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -709,7 +709,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Context Menu
 
-- ID: coreys-agentic-portfolio/components/ui/context-menu
+- ID: consentchain/components/ui/context-menu
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -724,7 +724,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Dialog
 
-- ID: coreys-agentic-portfolio/components/ui/dialog
+- ID: consentchain/components/ui/dialog
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -739,7 +739,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Drawer
 
-- ID: coreys-agentic-portfolio/components/ui/drawer
+- ID: consentchain/components/ui/drawer
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -754,7 +754,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Dropdown Menu
 
-- ID: coreys-agentic-portfolio/components/ui/dropdown-menu
+- ID: consentchain/components/ui/dropdown-menu
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -769,7 +769,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Form
 
-- ID: coreys-agentic-portfolio/components/ui/form
+- ID: consentchain/components/ui/form
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -784,7 +784,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Hover Card
 
-- ID: coreys-agentic-portfolio/components/ui/hover-card
+- ID: consentchain/components/ui/hover-card
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -799,7 +799,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Input Otp
 
-- ID: coreys-agentic-portfolio/components/ui/input-otp
+- ID: consentchain/components/ui/input-otp
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -814,7 +814,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Input
 
-- ID: coreys-agentic-portfolio/components/ui/input
+- ID: consentchain/components/ui/input
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -829,7 +829,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Label
 
-- ID: coreys-agentic-portfolio/components/ui/label
+- ID: consentchain/components/ui/label
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -844,7 +844,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Menubar
 
-- ID: coreys-agentic-portfolio/components/ui/menubar
+- ID: consentchain/components/ui/menubar
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -859,7 +859,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Navigation Menu
 
-- ID: coreys-agentic-portfolio/components/ui/navigation-menu
+- ID: consentchain/components/ui/navigation-menu
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -874,7 +874,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Pagination
 
-- ID: coreys-agentic-portfolio/components/ui/pagination
+- ID: consentchain/components/ui/pagination
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -889,7 +889,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Popover
 
-- ID: coreys-agentic-portfolio/components/ui/popover
+- ID: consentchain/components/ui/popover
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -904,7 +904,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Progress
 
-- ID: coreys-agentic-portfolio/components/ui/progress
+- ID: consentchain/components/ui/progress
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -919,7 +919,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Radio Group
 
-- ID: coreys-agentic-portfolio/components/ui/radio-group
+- ID: consentchain/components/ui/radio-group
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -934,7 +934,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Resizable
 
-- ID: coreys-agentic-portfolio/components/ui/resizable
+- ID: consentchain/components/ui/resizable
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -949,7 +949,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Scroll Area
 
-- ID: coreys-agentic-portfolio/components/ui/scroll-area
+- ID: consentchain/components/ui/scroll-area
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -964,7 +964,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Select
 
-- ID: coreys-agentic-portfolio/components/ui/select
+- ID: consentchain/components/ui/select
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -979,7 +979,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Separator
 
-- ID: coreys-agentic-portfolio/components/ui/separator
+- ID: consentchain/components/ui/separator
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -994,7 +994,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Sheet
 
-- ID: coreys-agentic-portfolio/components/ui/sheet
+- ID: consentchain/components/ui/sheet
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1009,7 +1009,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Sidebar
 
-- ID: coreys-agentic-portfolio/components/ui/sidebar
+- ID: consentchain/components/ui/sidebar
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1024,7 +1024,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Skeleton
 
-- ID: coreys-agentic-portfolio/components/ui/skeleton
+- ID: consentchain/components/ui/skeleton
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1039,7 +1039,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Slider
 
-- ID: coreys-agentic-portfolio/components/ui/slider
+- ID: consentchain/components/ui/slider
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1054,7 +1054,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Sonner
 
-- ID: coreys-agentic-portfolio/components/ui/sonner
+- ID: consentchain/components/ui/sonner
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1069,7 +1069,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Switch
 
-- ID: coreys-agentic-portfolio/components/ui/switch
+- ID: consentchain/components/ui/switch
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1084,7 +1084,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Table
 
-- ID: coreys-agentic-portfolio/components/ui/table
+- ID: consentchain/components/ui/table
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1099,7 +1099,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Tabs
 
-- ID: coreys-agentic-portfolio/components/ui/tabs
+- ID: consentchain/components/ui/tabs
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1114,7 +1114,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Textarea
 
-- ID: coreys-agentic-portfolio/components/ui/textarea
+- ID: consentchain/components/ui/textarea
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1129,7 +1129,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Toast
 
-- ID: coreys-agentic-portfolio/components/ui/toast
+- ID: consentchain/components/ui/toast
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1144,7 +1144,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Toaster
 
-- ID: coreys-agentic-portfolio/components/ui/toaster
+- ID: consentchain/components/ui/toaster
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1159,7 +1159,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Toggle Group
 
-- ID: coreys-agentic-portfolio/components/ui/toggle-group
+- ID: consentchain/components/ui/toggle-group
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1174,7 +1174,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Toggle
 
-- ID: coreys-agentic-portfolio/components/ui/toggle
+- ID: consentchain/components/ui/toggle
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1189,7 +1189,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Tooltip
 
-- ID: coreys-agentic-portfolio/components/ui/tooltip
+- ID: consentchain/components/ui/tooltip
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1204,7 +1204,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Use Toast
 
-- ID: coreys-agentic-portfolio/components/ui/use-toast
+- ID: consentchain/components/ui/use-toast
 - Type: ui
 - Status: active
 - Version: 0.1.0
@@ -1219,7 +1219,7 @@ Run `pnpm component-inventory:build` after updating the registry.
 
 ### Ui / Use Mobile
 
-- ID: coreys-agentic-portfolio/components/ui/use-mobile
+- ID: consentchain/components/ui/use-mobile
 - Type: ui
 - Status: active
 - Version: 0.1.0

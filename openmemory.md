@@ -1,10 +1,10 @@
-# OpenMemory Guide — coreys-agentic-portfolio
+# OpenMemory Guide — consentchain
 
 ## Overview
 
 - **App**: Next.js App Router portfolio/design-system playground with demos + docs.
 - **UI stack**: React + TypeScript, Tailwind CSS v4 (`app/globals.css` uses `@import "tailwindcss";`), shadcn/ui-style primitives in `components/ui/`.
-- **Key experiences**: “Creative Chaos” visual system, animation + color theme contexts, and an audio experience layer.
+- **Key experiences**: “ConsentChain” visual system, animation + color theme contexts, and an audio experience layer.
 
 ## Architecture
 

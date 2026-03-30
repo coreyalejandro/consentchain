@@ -51,7 +51,7 @@ Previously: 35 years in education, instructional design, and student affairs —
 ## Featured (Recommended Order)
 
 1. PROACTIVE repo or demo video (epistemic safety evidence)
-2. Portfolio site (coreys-agentic-portfolio)
+2. Portfolio site (consentchain)
 3. UICare-System repo
 4. ConsentChain repo
 5. Agent orientation course materials (when available)

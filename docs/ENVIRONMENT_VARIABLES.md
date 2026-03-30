@@ -1,7 +1,7 @@
 # Environment Variables Guide
 
 ## Overview
-This document explains all environment variables used in the Creative Chaos portfolio site.
+This document explains all environment variables used in the ConsentChain portfolio site.
 
 ## Required Variables
 

@@ -125,7 +125,7 @@ export default function HomePage() {
       <AudioSection
         id="hero"
         title="Hero Section - Neural Depth Magic"
-        description="Experience the Creative Chaos design philosophy. Living gradients, organic motion, and joyful interactions that breathe with every scroll."
+        description="Experience the ConsentChain design philosophy. Living gradients, organic motion, and joyful interactions that breathe with every scroll."
         position={{ x: 0, y: 0, z: -5 }}
       >
         <section className="relative min-h-screen rounded-3xl mb-16">
@@ -422,7 +422,7 @@ export default function HomePage() {
                 <div className="flex gap-3">
                   <Link href="/contact">
                     <AudioButton
-                      description="Start creating with the Creative Chaos design system"
+                      description="Start creating with the ConsentChain design system"
                       className="bg-amber-400 hover:bg-amber-300 text-black font-semibold rounded-full px-6 py-3 inline-flex items-center"
                     >
                       <Heart className="w-4 h-4 mr-2" />
@@ -697,7 +697,7 @@ export default function HomePage() {
 
       <AudioSection
         id="portfolio"
-        title="Projects - Creative Chaos Portfolio"
+        title="Projects - ConsentChain Portfolio"
         description="Explore innovative projects showcasing neural motion, chaos design, and joyful engineering. Each project breaks conventions to create memorable experiences."
         position={{ x: 0, y: 4, z: -7 }}
       >

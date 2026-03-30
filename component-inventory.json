@@ -2,13 +2,13 @@
   "$schema": "./COMPONENTS.schema.json",
   "schemaVersion": "1.0.0",
   "repo": {
-    "name": "coreys-agentic-portfolio",
+    "name": "consentchain",
     "root": ".",
     "lastUpdated": "2025-12-25T03:34:05.758Z"
   },
   "components": [
     {
-      "id": "coreys-agentic-portfolio/app-shell",
+      "id": "consentchain/app-shell",
       "name": "Portfolio App Shell",
       "type": "ui",
       "description": "Primary UI shell and routing for the portfolio app.",
@@ -31,7 +31,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/ui-components",
+      "id": "consentchain/ui-components",
       "name": "UI Components",
       "type": "ui",
       "description": "Reusable UI components and composition blocks.",
@@ -53,7 +53,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/styles-system",
+      "id": "consentchain/styles-system",
       "name": "Styles System",
       "type": "ui",
       "description": "Global styles, tokens, and Tailwind configuration.",
@@ -77,7 +77,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/data-layer",
+      "id": "consentchain/data-layer",
       "name": "Data Layer",
       "type": "package",
       "description": "Shared utilities and data helpers for the app.",
@@ -100,7 +100,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/hooks",
+      "id": "consentchain/hooks",
       "name": "Hooks",
       "type": "package",
       "description": "Shared React hooks and client-side helpers.",
@@ -122,7 +122,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/middleware",
+      "id": "consentchain/middleware",
       "name": "Middleware",
       "type": "service",
       "description": "Request middleware and routing policies.",
@@ -144,7 +144,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/public-assets",
+      "id": "consentchain/public-assets",
       "name": "Public Assets",
       "type": "doc",
       "description": "Static assets and public files for the site.",
@@ -166,7 +166,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/docs",
+      "id": "consentchain/docs",
       "name": "Docs",
       "type": "doc",
       "description": "Project documentation and reference materials.",
@@ -188,7 +188,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/component-inventory-system",
+      "id": "consentchain/component-inventory-system",
       "name": "Component Inventory System",
       "type": "workflow",
       "description": "Validation, reporting, and aggregation for component-inventory.json.",
@@ -217,7 +217,7 @@
       "standalone": true
     },
     {
-      "id": "coreys-agentic-portfolio/components/animations/BreathingBackground",
+      "id": "consentchain/components/animations/BreathingBackground",
       "name": "Animations / Breathingbackground",
       "type": "ui",
       "description": "UI component located at components/animations/BreathingBackground.tsx.",
@@ -243,7 +243,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/animations/FloatingElement",
+      "id": "consentchain/components/animations/FloatingElement",
       "name": "Animations / Floatingelement",
       "type": "ui",
       "description": "UI component located at components/animations/FloatingElement.tsx.",
@@ -269,7 +269,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/animations/FloatingOrb",
+      "id": "consentchain/components/animations/FloatingOrb",
       "name": "Animations / Floatingorb",
       "type": "ui",
       "description": "UI component located at components/animations/FloatingOrb.tsx.",
@@ -295,7 +295,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/animations/index",
+      "id": "consentchain/components/animations/index",
       "name": "Animations / Index",
       "type": "ui",
       "description": "UI component located at components/animations/index.ts.",
@@ -321,7 +321,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/audio-experience/audio-button",
+      "id": "consentchain/components/audio-experience/audio-button",
       "name": "Audio Experience / Audio Button",
       "type": "ui",
       "description": "UI component located at components/audio-experience/audio-button.tsx.",
@@ -347,7 +347,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/audio-experience/audio-engine",
+      "id": "consentchain/components/audio-experience/audio-engine",
       "name": "Audio Experience / Audio Engine",
       "type": "ui",
       "description": "UI component located at components/audio-experience/audio-engine.tsx.",
@@ -373,7 +373,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/audio-experience/audio-section",
+      "id": "consentchain/components/audio-experience/audio-section",
       "name": "Audio Experience / Audio Section",
       "type": "ui",
       "description": "UI component located at components/audio-experience/audio-section.tsx.",
@@ -399,7 +399,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/audio-experience/audio-toggle",
+      "id": "consentchain/components/audio-experience/audio-toggle",
       "name": "Audio Experience / Audio Toggle",
       "type": "ui",
       "description": "UI component located at components/audio-experience/audio-toggle.tsx.",
@@ -425,7 +425,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/card-path/card-path-scene",
+      "id": "consentchain/components/card-path/card-path-scene",
       "name": "Card Path / Card Path Scene",
       "type": "ui",
       "description": "UI component located at components/card-path/card-path-scene.tsx.",
@@ -451,7 +451,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/card-path/path-card",
+      "id": "consentchain/components/card-path/path-card",
       "name": "Card Path / Path Card",
       "type": "ui",
       "description": "UI component located at components/card-path/path-card.tsx.",
@@ -477,8 +477,8 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/creative-chaos/breathing-background",
-      "name": "Creative Chaos / Breathing Background",
+      "id": "consentchain/components/creative-chaos/breathing-background",
+      "name": "ConsentChain / Breathing Background",
       "type": "ui",
       "description": "UI component located at components/creative-chaos/breathing-background.tsx.",
       "ownerName": "Core Team",
@@ -503,8 +503,8 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/creative-chaos/floating-card",
-      "name": "Creative Chaos / Floating Card",
+      "id": "consentchain/components/creative-chaos/floating-card",
+      "name": "ConsentChain / Floating Card",
       "type": "ui",
       "description": "UI component located at components/creative-chaos/floating-card.tsx.",
       "ownerName": "Core Team",
@@ -529,8 +529,8 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/creative-chaos/floating-particles",
-      "name": "Creative Chaos / Floating Particles",
+      "id": "consentchain/components/creative-chaos/floating-particles",
+      "name": "ConsentChain / Floating Particles",
       "type": "ui",
       "description": "UI component located at components/creative-chaos/floating-particles.tsx.",
       "ownerName": "Core Team",
@@ -555,8 +555,8 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/creative-chaos/organic-title",
-      "name": "Creative Chaos / Organic Title",
+      "id": "consentchain/components/creative-chaos/organic-title",
+      "name": "ConsentChain / Organic Title",
       "type": "ui",
       "description": "UI component located at components/creative-chaos/organic-title.tsx.",
       "ownerName": "Core Team",
@@ -581,7 +581,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/custom-icons",
+      "id": "consentchain/components/custom-icons",
       "name": "Custom Icons",
       "type": "ui",
       "description": "UI component located at components/custom-icons.tsx.",
@@ -607,7 +607,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/floating-nav",
+      "id": "consentchain/components/floating-nav",
       "name": "Floating Nav",
       "type": "ui",
       "description": "UI component located at components/floating-nav.tsx.",
@@ -633,7 +633,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/laydown-card",
+      "id": "consentchain/components/laydown-card",
       "name": "Laydown Card",
       "type": "ui",
       "description": "UI component located at components/laydown-card.tsx.",
@@ -659,7 +659,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/playground/card-path-demo",
+      "id": "consentchain/components/playground/card-path-demo",
       "name": "Playground / Card Path Demo",
       "type": "ui",
       "description": "UI component located at components/playground/card-path-demo.tsx.",
@@ -685,7 +685,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/playground/scroll-card-demo",
+      "id": "consentchain/components/playground/scroll-card-demo",
       "name": "Playground / Scroll Card Demo",
       "type": "ui",
       "description": "UI component located at components/playground/scroll-card-demo.tsx.",
@@ -711,7 +711,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/playground/table-card-demo",
+      "id": "consentchain/components/playground/table-card-demo",
       "name": "Playground / Table Card Demo",
       "type": "ui",
       "description": "UI component located at components/playground/table-card-demo.tsx.",
@@ -737,7 +737,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/project-modal",
+      "id": "consentchain/components/project-modal",
       "name": "Project Modal",
       "type": "ui",
       "description": "UI component located at components/project-modal.tsx.",
@@ -763,7 +763,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/theme-provider",
+      "id": "consentchain/components/theme-provider",
       "name": "Theme Provider",
       "type": "ui",
       "description": "UI component located at components/theme-provider.tsx.",
@@ -789,7 +789,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/accordion",
+      "id": "consentchain/components/ui/accordion",
       "name": "Ui / Accordion",
       "type": "ui",
       "description": "UI component located at components/ui/accordion.tsx.",
@@ -815,7 +815,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/alert-dialog",
+      "id": "consentchain/components/ui/alert-dialog",
       "name": "Ui / Alert Dialog",
       "type": "ui",
       "description": "UI component located at components/ui/alert-dialog.tsx.",
@@ -841,7 +841,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/alert",
+      "id": "consentchain/components/ui/alert",
       "name": "Ui / Alert",
       "type": "ui",
       "description": "UI component located at components/ui/alert.tsx.",
@@ -867,7 +867,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/aspect-ratio",
+      "id": "consentchain/components/ui/aspect-ratio",
       "name": "Ui / Aspect Ratio",
       "type": "ui",
       "description": "UI component located at components/ui/aspect-ratio.tsx.",
@@ -893,7 +893,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/avatar",
+      "id": "consentchain/components/ui/avatar",
       "name": "Ui / Avatar",
       "type": "ui",
       "description": "UI component located at components/ui/avatar.tsx.",
@@ -919,7 +919,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/badge",
+      "id": "consentchain/components/ui/badge",
       "name": "Ui / Badge",
       "type": "ui",
       "description": "UI component located at components/ui/badge.tsx.",
@@ -945,7 +945,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/breadcrumb",
+      "id": "consentchain/components/ui/breadcrumb",
       "name": "Ui / Breadcrumb",
       "type": "ui",
       "description": "UI component located at components/ui/breadcrumb.tsx.",
@@ -971,7 +971,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/button",
+      "id": "consentchain/components/ui/button",
       "name": "Ui / Button",
       "type": "ui",
       "description": "UI component located at components/ui/button.tsx.",
@@ -997,7 +997,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/calendar",
+      "id": "consentchain/components/ui/calendar",
       "name": "Ui / Calendar",
       "type": "ui",
       "description": "UI component located at components/ui/calendar.tsx.",
@@ -1023,7 +1023,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/card",
+      "id": "consentchain/components/ui/card",
       "name": "Ui / Card",
       "type": "ui",
       "description": "UI component located at components/ui/card.tsx.",
@@ -1049,7 +1049,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/carousel",
+      "id": "consentchain/components/ui/carousel",
       "name": "Ui / Carousel",
       "type": "ui",
       "description": "UI component located at components/ui/carousel.tsx.",
@@ -1075,7 +1075,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/chart",
+      "id": "consentchain/components/ui/chart",
       "name": "Ui / Chart",
       "type": "ui",
       "description": "UI component located at components/ui/chart.tsx.",
@@ -1101,7 +1101,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/checkbox",
+      "id": "consentchain/components/ui/checkbox",
       "name": "Ui / Checkbox",
       "type": "ui",
       "description": "UI component located at components/ui/checkbox.tsx.",
@@ -1127,7 +1127,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/collapsible",
+      "id": "consentchain/components/ui/collapsible",
       "name": "Ui / Collapsible",
       "type": "ui",
       "description": "UI component located at components/ui/collapsible.tsx.",
@@ -1153,7 +1153,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/command",
+      "id": "consentchain/components/ui/command",
       "name": "Ui / Command",
       "type": "ui",
       "description": "UI component located at components/ui/command.tsx.",
@@ -1179,7 +1179,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/context-menu",
+      "id": "consentchain/components/ui/context-menu",
       "name": "Ui / Context Menu",
       "type": "ui",
       "description": "UI component located at components/ui/context-menu.tsx.",
@@ -1205,7 +1205,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/dialog",
+      "id": "consentchain/components/ui/dialog",
       "name": "Ui / Dialog",
       "type": "ui",
       "description": "UI component located at components/ui/dialog.tsx.",
@@ -1231,7 +1231,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/drawer",
+      "id": "consentchain/components/ui/drawer",
       "name": "Ui / Drawer",
       "type": "ui",
       "description": "UI component located at components/ui/drawer.tsx.",
@@ -1257,7 +1257,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/dropdown-menu",
+      "id": "consentchain/components/ui/dropdown-menu",
       "name": "Ui / Dropdown Menu",
       "type": "ui",
       "description": "UI component located at components/ui/dropdown-menu.tsx.",
@@ -1283,7 +1283,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/form",
+      "id": "consentchain/components/ui/form",
       "name": "Ui / Form",
       "type": "ui",
       "description": "UI component located at components/ui/form.tsx.",
@@ -1309,7 +1309,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/hover-card",
+      "id": "consentchain/components/ui/hover-card",
       "name": "Ui / Hover Card",
       "type": "ui",
       "description": "UI component located at components/ui/hover-card.tsx.",
@@ -1335,7 +1335,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/input-otp",
+      "id": "consentchain/components/ui/input-otp",
       "name": "Ui / Input Otp",
       "type": "ui",
       "description": "UI component located at components/ui/input-otp.tsx.",
@@ -1361,7 +1361,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/input",
+      "id": "consentchain/components/ui/input",
       "name": "Ui / Input",
       "type": "ui",
       "description": "UI component located at components/ui/input.tsx.",
@@ -1387,7 +1387,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/label",
+      "id": "consentchain/components/ui/label",
       "name": "Ui / Label",
       "type": "ui",
       "description": "UI component located at components/ui/label.tsx.",
@@ -1413,7 +1413,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/menubar",
+      "id": "consentchain/components/ui/menubar",
       "name": "Ui / Menubar",
       "type": "ui",
       "description": "UI component located at components/ui/menubar.tsx.",
@@ -1439,7 +1439,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/navigation-menu",
+      "id": "consentchain/components/ui/navigation-menu",
       "name": "Ui / Navigation Menu",
       "type": "ui",
       "description": "UI component located at components/ui/navigation-menu.tsx.",
@@ -1465,7 +1465,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/pagination",
+      "id": "consentchain/components/ui/pagination",
       "name": "Ui / Pagination",
       "type": "ui",
       "description": "UI component located at components/ui/pagination.tsx.",
@@ -1491,7 +1491,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/popover",
+      "id": "consentchain/components/ui/popover",
       "name": "Ui / Popover",
       "type": "ui",
       "description": "UI component located at components/ui/popover.tsx.",
@@ -1517,7 +1517,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/progress",
+      "id": "consentchain/components/ui/progress",
       "name": "Ui / Progress",
       "type": "ui",
       "description": "UI component located at components/ui/progress.tsx.",
@@ -1543,7 +1543,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/radio-group",
+      "id": "consentchain/components/ui/radio-group",
       "name": "Ui / Radio Group",
       "type": "ui",
       "description": "UI component located at components/ui/radio-group.tsx.",
@@ -1569,7 +1569,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/resizable",
+      "id": "consentchain/components/ui/resizable",
       "name": "Ui / Resizable",
       "type": "ui",
       "description": "UI component located at components/ui/resizable.tsx.",
@@ -1595,7 +1595,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/scroll-area",
+      "id": "consentchain/components/ui/scroll-area",
       "name": "Ui / Scroll Area",
       "type": "ui",
       "description": "UI component located at components/ui/scroll-area.tsx.",
@@ -1621,7 +1621,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/select",
+      "id": "consentchain/components/ui/select",
       "name": "Ui / Select",
       "type": "ui",
       "description": "UI component located at components/ui/select.tsx.",
@@ -1647,7 +1647,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/separator",
+      "id": "consentchain/components/ui/separator",
       "name": "Ui / Separator",
       "type": "ui",
       "description": "UI component located at components/ui/separator.tsx.",
@@ -1673,7 +1673,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/sheet",
+      "id": "consentchain/components/ui/sheet",
       "name": "Ui / Sheet",
       "type": "ui",
       "description": "UI component located at components/ui/sheet.tsx.",
@@ -1699,7 +1699,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/sidebar",
+      "id": "consentchain/components/ui/sidebar",
       "name": "Ui / Sidebar",
       "type": "ui",
       "description": "UI component located at components/ui/sidebar.tsx.",
@@ -1725,7 +1725,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/skeleton",
+      "id": "consentchain/components/ui/skeleton",
       "name": "Ui / Skeleton",
       "type": "ui",
       "description": "UI component located at components/ui/skeleton.tsx.",
@@ -1751,7 +1751,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/slider",
+      "id": "consentchain/components/ui/slider",
       "name": "Ui / Slider",
       "type": "ui",
       "description": "UI component located at components/ui/slider.tsx.",
@@ -1777,7 +1777,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/sonner",
+      "id": "consentchain/components/ui/sonner",
       "name": "Ui / Sonner",
       "type": "ui",
       "description": "UI component located at components/ui/sonner.tsx.",
@@ -1803,7 +1803,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/switch",
+      "id": "consentchain/components/ui/switch",
       "name": "Ui / Switch",
       "type": "ui",
       "description": "UI component located at components/ui/switch.tsx.",
@@ -1829,7 +1829,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/table",
+      "id": "consentchain/components/ui/table",
       "name": "Ui / Table",
       "type": "ui",
       "description": "UI component located at components/ui/table.tsx.",
@@ -1855,7 +1855,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/tabs",
+      "id": "consentchain/components/ui/tabs",
       "name": "Ui / Tabs",
       "type": "ui",
       "description": "UI component located at components/ui/tabs.tsx.",
@@ -1881,7 +1881,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/textarea",
+      "id": "consentchain/components/ui/textarea",
       "name": "Ui / Textarea",
       "type": "ui",
       "description": "UI component located at components/ui/textarea.tsx.",
@@ -1907,7 +1907,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/toast",
+      "id": "consentchain/components/ui/toast",
       "name": "Ui / Toast",
       "type": "ui",
       "description": "UI component located at components/ui/toast.tsx.",
@@ -1933,7 +1933,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/toaster",
+      "id": "consentchain/components/ui/toaster",
       "name": "Ui / Toaster",
       "type": "ui",
       "description": "UI component located at components/ui/toaster.tsx.",
@@ -1959,7 +1959,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/toggle-group",
+      "id": "consentchain/components/ui/toggle-group",
       "name": "Ui / Toggle Group",
       "type": "ui",
       "description": "UI component located at components/ui/toggle-group.tsx.",
@@ -1985,7 +1985,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/toggle",
+      "id": "consentchain/components/ui/toggle",
       "name": "Ui / Toggle",
       "type": "ui",
       "description": "UI component located at components/ui/toggle.tsx.",
@@ -2011,7 +2011,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/tooltip",
+      "id": "consentchain/components/ui/tooltip",
       "name": "Ui / Tooltip",
       "type": "ui",
       "description": "UI component located at components/ui/tooltip.tsx.",
@@ -2037,7 +2037,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/use-toast",
+      "id": "consentchain/components/ui/use-toast",
       "name": "Ui / Use Toast",
       "type": "ui",
       "description": "UI component located at components/ui/use-toast.ts.",
@@ -2063,7 +2063,7 @@
       "standalone": false
     },
     {
-      "id": "coreys-agentic-portfolio/components/ui/use-mobile",
+      "id": "consentchain/components/ui/use-mobile",
       "name": "Ui / Use Mobile",
       "type": "ui",
       "description": "UI component located at components/ui/use-mobile.tsx.",

@@ -24,7 +24,7 @@ function stableHashInt(input: string): number {
 }
 
 /**
- * PortfolioSection - Creative Chaos portfolio showcase
+ * PortfolioSection - ConsentChain portfolio showcase
  */
 export function PortfolioSection() {
   const { time, scrollY, mousePosition } = useAnimation()
@@ -116,7 +116,7 @@ export function PortfolioSection() {
   return (
     <AudioSection
       id="projects"
-      title="Projects - Creative Chaos Portfolio"
+      title="Projects - ConsentChain Portfolio"
       description="Explore innovative projects showcasing neural motion and chaos design."
       position={{ x: 0, y: 4, z: -7 }}
     >

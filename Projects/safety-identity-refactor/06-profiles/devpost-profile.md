@@ -110,5 +110,5 @@ Evaluator interface for assessing instructional artifacts against cognitive safe
 ## Links
 
 - GitHub: [github.com/coreyalejandro](https://github.com/coreyalejandro)
-- Portfolio: [coreys-agentic-portfolio] (link TBD)
+- Portfolio: [consentchain] (link TBD)
 - GitLab: [gitlab.com/coreyalejandro](https://gitlab.com/coreyalejandro)

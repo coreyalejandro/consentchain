@@ -216,7 +216,7 @@ export default function DesignSystemPage() {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-6xl font-bold text-white mb-6 text-balance">
-            Creative Chaos
+            ConsentChain
             <br />
             <span className="text-amber-200">Design System</span>
           </h1>
@@ -227,7 +227,7 @@ export default function DesignSystemPage() {
 
         <section className="mb-16">
           <h2 className="text-4xl font-semibold text-white mb-4">Platform Exports</h2>
-          <p className="text-white/90 mb-8 text-lg">Export Creative Chaos tokens to different design platforms</p>
+          <p className="text-white/90 mb-8 text-lg">Export ConsentChain tokens to different design platforms</p>
 
           {/* v0 Export */}
           <div className="bg-gray-900 rounded-3xl overflow-hidden mb-6 border border-white/20">

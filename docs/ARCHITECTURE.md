@@ -1,8 +1,8 @@
-# Creative Chaos - System Architecture
+# ConsentChain - System Architecture
 
 ## Overview
 
-Creative Chaos is a dual-purpose portfolio and design system built on Next.js 15+ with cutting-edge audio accessibility features.
+ConsentChain is a dual-purpose portfolio and design system built on Next.js 15+ with cutting-edge audio accessibility features.
 
 ---
 
@@ -479,7 +479,7 @@ test('user can view project details', async ({ page }) => {
   await page.goto('/');
   await page.click('[data-project="creative-chaos"]');
   await expect(page.locator('[role="dialog"]')).toBeVisible();
-  await expect(page.locator('h2')).toContainText('Creative Chaos');
+  await expect(page.locator('h2')).toContainText('ConsentChain');
 });
 \`\`\`
 

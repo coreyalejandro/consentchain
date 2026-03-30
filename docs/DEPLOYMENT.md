@@ -1,6 +1,6 @@
-# Creative Chaos - Deployment Guide
+# ConsentChain - Deployment Guide
 
-Complete guide for deploying the Creative Chaos portfolio to production.
+Complete guide for deploying the ConsentChain portfolio to production.
 
 ---
 

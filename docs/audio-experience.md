@@ -1,4 +1,4 @@
-# Creative Chaos Audio Experience
+# ConsentChain Audio Experience
 
 ## A Revolutionary Approach to Web Accessibility
 
@@ -106,7 +106,7 @@ function MyComponent() {
 
   const handleAction = () => {
     playComponentSound('modal') // Play modal opening sound
-    narrateSection('project-details', 'Viewing details for Creative Chaos Design System')
+    narrateSection('project-details', 'Viewing details for ConsentChain Design System')
   }
 
   return <button onClick={handleAction}>Open Details</button>
@@ -161,5 +161,5 @@ MIT - Free to use in your projects
 
 ## Credits
 
-Created as part of the Creative Chaos design system by Corey Alejandro.
+Created as part of the ConsentChain design system by Corey Alejandro.
 Inspired by the need for truly equitable web experiences.
