@@ -7,14 +7,14 @@
 |-------|-------|
 | `project` | `coreyalejandro/consentchain` |
 | `verification_target` | `fd149cf8c2a9cc3e746322c90cfab507f8cc0be1` |
-| `head_sha` | `433e6aa730bcbbb51cba5a6c70a20b4312e035d4` |
+| `head_sha` | `cd6bb24db0ec81abd7d1f0dba2b719f2e59df405` |
 | `last_verified_commit` | `d6371f645d7d68a9238441ccdc4be27da0c88470` |
 | `last_verified_run_id` | `23761674094` |
 | `tip_state_truth` | `tip_pending` |
-| `workflow_sha` | `e9834a8bd88eda0231d9473824dcbce96dffb54b166c68d029b5b92ea7295071` |
+| `workflow_sha` | `a3bc1d2bff031915c802c6ec1997062a29a0af0b6a6ac719776ff0ad8edde606` |
 | `escalation_state` | `review_required` |
 | `reviewer_status` | `pending` |
-| `governance_contract_version` | `v1.8.0` |
+| `governance_contract_version` | `v1.9.0` |
 | `inventory_meta_generated_at_utc` | `2026-03-30T19:00:00Z` |
 
 ## Immutable truth anchor (PASS 11)
