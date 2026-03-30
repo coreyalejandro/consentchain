@@ -1,8 +1,8 @@
-# Governance system card (ConsentChain)
+# Governance system card (TLC base camp)
 
-Purpose: Machine-checkable governance overlay for this repository: invariant registry, enforcement map, evidence ledger, institutionalization, and CI parity aligned with The Living Constitution canonical standard (see `packages/tlc-governance-kit` / `THE_LIVING_CONSTITUTION.md`).
+Purpose: Machine-checkable governance overlay for the Safety Systems Design Commonwealth: constitution, zero-shot build contracts, verification evidence, and sprint coordination (see root `CLAUDE.md`).
 
-**Governance scope:** Repository-only (`coreyalejandro/consentchain`). External implementation details are cited by path; they are not governed by these verifiers beyond evidence references in `verification/MATRIX.md`.
+**Governance scope:** Repository-only (`the-living-constitution`). External implementation repos are cited by path; they are not governed by this verifier.
 
 **Continuously evaluated:** Project topology (`scripts/verify_project_topology.py --with-governance`), full governance chain (`scripts/verify_governance_chain.py`), institutionalization checks (`scripts/verify_institutionalization.py`), evidence ledger schema, doctrine or invariant/enforcement/inventory links, CI command parity, and committed regression ledger rows. Scheduled runs execute the same verify workflow on a weekly cron.
 
@@ -16,4 +16,6 @@ Current evidence boundary: Claims in this card are bounded by files in this repo
 
 Not claimed: Correctness of sibling repos, production uptime, security of third-party services, or completeness of future work not listed in `verification/MATRIX.md`.
 
-**Contract:** C-RSP institutionalization + tip-state + PASS 7 branch policy v1.5.0.
+**Canonical status surface (PASS 10A):** `STATUS.json` is the sole authoritative current-status artifact; `STATUS.md` is machine-rendered from it. Policy: `verification/closed-epistemics-open-interfaces-policy.json`. Do not assert conflicting status in README or docs; link to `STATUS.md`.
+
+**Contract:** C-RSP institutionalization + tip-state + PASS 7 branch policy + closed/open epistemic boundary v1.6.0.
