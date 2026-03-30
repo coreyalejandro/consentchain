@@ -22,6 +22,16 @@ jobs:
           path: the-living-constitution
           ref: main
 
+      - name: Bootstrap repository
+        run: ./scripts/bootstrap_repo.sh
+
+      - name: Verify anchor availability
+        run: |
+          echo "=== ConsentChain tags ==="
+          git tag --list
+          echo "=== TLC canonical tags ==="
+          git -C the-living-constitution tag --list
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

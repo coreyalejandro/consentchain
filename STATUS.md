@@ -7,11 +7,11 @@
 |-------|-------|
 | `project` | `coreyalejandro/consentchain` |
 | `verification_target` | `fd149cf8c2a9cc3e746322c90cfab507f8cc0be1` |
-| `head_sha` | `fd149cf8c2a9cc3e746322c90cfab507f8cc0be1` |
+| `head_sha` | `433e6aa730bcbbb51cba5a6c70a20b4312e035d4` |
 | `last_verified_commit` | `d6371f645d7d68a9238441ccdc4be27da0c88470` |
 | `last_verified_run_id` | `23761674094` |
 | `tip_state_truth` | `tip_pending` |
-| `workflow_sha` | `b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1` |
+| `workflow_sha` | `e9834a8bd88eda0231d9473824dcbce96dffb54b166c68d029b5b92ea7295071` |
 | `escalation_state` | `review_required` |
 | `reviewer_status` | `pending` |
 | `governance_contract_version` | `v1.8.0` |

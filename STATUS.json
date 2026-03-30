@@ -5,7 +5,7 @@
   },
   "escalation_state": "review_required",
   "governance_contract_version": "v1.8.0",
-  "head_sha": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
+  "head_sha": "433e6aa730bcbbb51cba5a6c70a20b4312e035d4",
   "historical_state": {
     "ci_remote_record_captured_at_utc": "2026-03-30T19:00:00Z",
     "regression_ledger_last_commit_sha": "a69e135791c572ee30409b67955eb233acbd9712",
@@ -29,5 +29,5 @@
     "reason": "Epistemic closure inside the repo: current operational status is synthesized into STATUS.json from inventory ci_provenance, git HEAD, workflow identity, regression ledger tail, and remote evidence record; STATUS.md is a deterministic render. External parties receive only exported proofs and schema-valid artifacts listed under open_interfaces."
   },
   "verification_target": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
-  "workflow_sha": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1"
+  "workflow_sha": "e9834a8bd88eda0231d9473824dcbce96dffb54b166c68d029b5b92ea7295071"
 }
