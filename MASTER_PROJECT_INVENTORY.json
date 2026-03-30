@@ -22,11 +22,12 @@
     "reviewer_status": "pending"
   },
   "governance_artifacts": {
-    "contract_version": "v1.6.0",
+    "contract_version": "v1.7.0",
     "description": "ConsentChain C-RSP governance chain; verified by scripts from tlc-governance-kit",
     "canonical_paths": {
       "invariant_registry": "00-constitution/invariant-registry.json",
       "doctrine_to_invariant_map": "00-constitution/doctrine-to-invariant.map.json",
+      "role_registry": "00-constitution/role-registry.json",
       "enforcement_map": "03-enforcement/enforcement-map.json",
       "agent_capabilities": "02-agents/agent-capabilities.json",
       "evidence_ledger_schema": "verification/evidence-ledger.schema.json",
@@ -64,6 +65,12 @@
         "relative_path": "00-constitution/doctrine-to-invariant.map.json",
         "verification_status": "verified",
         "evidence_ledger_record_id": "gov-ledger-doctrine-map"
+      },
+      {
+        "canonical_key": "role_registry",
+        "relative_path": "00-constitution/role-registry.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
       },
       {
         "canonical_key": "enforcement_map",

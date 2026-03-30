@@ -12,7 +12,7 @@
 | `workflow_sha` | `b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1` |
 | `escalation_state` | `review_required` |
 | `reviewer_status` | `pending` |
-| `governance_contract_version` | `v1.6.0` |
+| `governance_contract_version` | `v1.7.0` |
 | `inventory_meta_generated_at_utc` | `2026-03-30T18:40:00Z` |
 
 ## Historical / evidence anchors

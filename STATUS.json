@@ -5,8 +5,8 @@
     "state": "aligned"
   },
   "escalation_state": "review_required",
-  "governance_contract_version": "v1.6.0",
-  "head_sha": "108847769113e965868c3b8da1b5365965d05348",
+  "governance_contract_version": "v1.7.0",
+  "head_sha": "be067c66a255f239ca8ce1bd0153b307fd19dc7a",
   "historical_state": {
     "ci_remote_record_captured_at_utc": "2026-03-30T18:40:00Z",
     "regression_ledger_last_commit_sha": "a69e135791c572ee30409b67955eb233acbd9712",
