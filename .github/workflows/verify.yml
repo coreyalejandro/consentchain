@@ -20,7 +20,8 @@ jobs:
         with:
           repository: coreyalejandro/the-living-constitution
           path: the-living-constitution
-          ref: main
+          # TLC main may lag governance artifacts; compare to the branch that carries PASS 9 parity.
+          ref: feature/c-rsp-pass3-ci-provenance
 
       - uses: actions/setup-python@v5
         with:
