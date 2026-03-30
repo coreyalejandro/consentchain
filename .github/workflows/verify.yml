@@ -1,0 +1,68 @@
+name: Verify ConsentChain Governance
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, "feature/**"]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "45 7 * * 2"
+
+jobs:
+  verify-governance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python verification dependencies
+        run: pip install -r requirements-verify.txt
+
+      - name: Emit GitHub Actions provenance (stdout)
+        run: |
+          echo "=== GitHub Actions provenance ==="
+          echo "GITHUB_RUN_ID=$GITHUB_RUN_ID"
+          echo "GITHUB_SHA=$GITHUB_SHA"
+          echo "GITHUB_REF=$GITHUB_REF"
+
+      - name: Verify governance chain
+        run: python3 scripts/verify_governance_chain.py --root .
+
+      - name: Append regression ledger (CI recorded run)
+        if: success()
+        run: python3 scripts/append_regression_ledger.py
+
+      - name: Verify institutionalization layer
+        if: success()
+        run: python3 scripts/verify_institutionalization.py --root .
+
+      - name: Adversarial failure-injection governance tests
+        if: success()
+        run: python3 scripts/governance_failure_injection_tests.py
+
+      - name: Upload governance verification run artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: governance-verification-runs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: verification/runs/*.json
+          if-no-files-found: error
+
+      - name: Download governance artifact for CI self-verification
+        if: success()
+        uses: actions/download-artifact@v4
+        with:
+          name: governance-verification-runs-${{ github.run_id }}-${{ github.run_attempt }}
+          path: verification/_ci_download_governance
+
+      - name: CI self-verify governance artifact (schema + GITHUB_SHA)
+        if: success()
+        env:
+          GITHUB_ARTIFACT_DIR: verification/_ci_download_governance
+        run: |
+          set -euo pipefail
+          python3 scripts/ci_self_verify_governance_artifact.py

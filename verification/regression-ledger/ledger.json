@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.1.0",
+  "records": [
+    {
+      "run_id": "bootstrap-pass8-consentchain",
+      "run_attempt": "1",
+      "workflow_name": "Verify ConsentChain Governance",
+      "workflow_sha256": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
+      "commit_sha": "43ef9e212933d89dc0cdea0479c37718a5ac5d4a",
+      "branch_ref": "refs/heads/main",
+      "timestamp_utc": "2026-03-30T16:00:00Z",
+      "conclusion": "success",
+      "artifact_name": "local-bootstrap",
+      "artifact_path": "verification/regression-ledger/ledger.json",
+      "artifact_retrieval_ref": "in-repo ledger bootstrap before first remote qualifying run",
+      "reviewer_status": "not_required",
+      "escalation_state": "none",
+      "github_event_name": "workflow_dispatch",
+      "tip_state_truth": "historical_verified_run",
+      "notes": "Bootstrap row; CI will append governance-verification-runs-* rows after green runs."
+    }
+  ]
+}

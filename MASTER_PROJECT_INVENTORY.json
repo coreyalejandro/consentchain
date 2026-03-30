@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "phase": "0",
+    "inventory_kind": "consentchain_governance_inventory",
+    "generated_at_utc": "2026-03-30T16:00:00Z",
+    "repo": "coreyalejandro/consentchain",
+    "pass": "PASS8",
+    "notes": [
+      "Satellite governance inventory aligned with packages/tlc-governance-kit; no TLC base-camp topology verifier."
+    ]
+  },
+  "ci_provenance": {
+    "last_verified_run_id": "bootstrap-local",
+    "last_verified_commit": "43ef9e212933d89dc0cdea0479c37718a5ac5d4a",
+    "last_remote_qualifying_commit": "43ef9e212933d89dc0cdea0479c37718a5ac5d4a",
+    "artifact_name": "pending-remote-governance-artifact",
+    "verify_workflow_sha256": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
+    "verify_workflow_sha256_at_last_remote_run": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
+    "status": "pending",
+    "tip_state_truth": "tip_pending",
+    "escalation_state": "none",
+    "reviewer_status": "pending"
+  },
+  "governance_artifacts": {
+    "contract_version": "v1.5.0",
+    "description": "ConsentChain C-RSP governance chain; verified by scripts from tlc-governance-kit",
+    "canonical_paths": {
+      "invariant_registry": "00-constitution/invariant-registry.json",
+      "doctrine_to_invariant_map": "00-constitution/doctrine-to-invariant.map.json",
+      "enforcement_map": "03-enforcement/enforcement-map.json",
+      "agent_capabilities": "02-agents/agent-capabilities.json",
+      "evidence_ledger_schema": "verification/evidence-ledger.schema.json",
+      "evidence_ledger_seed": "verification/evidence-ledger/seed.json",
+      "governance_verification_template": "verification/governance-verification.template.json",
+      "governance_verification_run_schema": "verification/governance-verification-run.schema.json",
+      "ci_remote_evidence_record": "verification/ci-remote-evidence/record.json",
+      "regression_ledger_schema": "verification/regression-ledger.schema.json",
+      "regression_ledger": "verification/regression-ledger/ledger.json",
+      "review_escalation_policy": "verification/review-escalation-policy.json",
+      "tip_state_policy": "verification/tip-state-policy.json",
+      "pass7_branch_verification_policy": "verification/pass7-branch-verification-policy.json",
+      "governance_system_card": "verification/GOVERNANCE_SYSTEM_CARD.md",
+      "independent_review_record": "verification/independent-review/last-review.json"
+    },
+    "institutionalization": {
+      "regression_ledger_schema": "verification/regression-ledger.schema.json",
+      "regression_ledger": "verification/regression-ledger/ledger.json",
+      "review_escalation_policy": "verification/review-escalation-policy.json",
+      "failure_injection_tests": "scripts/governance_failure_injection_tests.py",
+      "append_ledger_script": "scripts/append_regression_ledger.py"
+    },
+    "artifact_manifest": [
+      {
+        "canonical_key": "invariant_registry",
+        "relative_path": "00-constitution/invariant-registry.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": "gov-ledger-invariant-registry"
+      },
+      {
+        "canonical_key": "doctrine_to_invariant_map",
+        "relative_path": "00-constitution/doctrine-to-invariant.map.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": "gov-ledger-doctrine-map"
+      },
+      {
+        "canonical_key": "enforcement_map",
+        "relative_path": "03-enforcement/enforcement-map.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "agent_capabilities",
+        "relative_path": "02-agents/agent-capabilities.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "evidence_ledger_schema",
+        "relative_path": "verification/evidence-ledger.schema.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": "gov-ledger-schema-runtime"
+      },
+      {
+        "canonical_key": "evidence_ledger_seed",
+        "relative_path": "verification/evidence-ledger/seed.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": "gov-ledger-seed-file"
+      },
+      {
+        "canonical_key": "governance_verification_template",
+        "relative_path": "verification/governance-verification.template.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "governance_verification_run_schema",
+        "relative_path": "verification/governance-verification-run.schema.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": "gov-ledger-run-artifact"
+      },
+      {
+        "canonical_key": "ci_remote_evidence_record",
+        "relative_path": "verification/ci-remote-evidence/record.json",
+        "verification_status": "pending",
+        "evidence_ledger_record_id": "gov-ledger-remote-ci-provenance"
+      },
+      {
+        "canonical_key": "regression_ledger_schema",
+        "relative_path": "verification/regression-ledger.schema.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "regression_ledger",
+        "relative_path": "verification/regression-ledger/ledger.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "review_escalation_policy",
+        "relative_path": "verification/review-escalation-policy.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "tip_state_policy",
+        "relative_path": "verification/tip-state-policy.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "pass7_branch_verification_policy",
+        "relative_path": "verification/pass7-branch-verification-policy.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "governance_system_card",
+        "relative_path": "verification/GOVERNANCE_SYSTEM_CARD.md",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      },
+      {
+        "canonical_key": "independent_review_record",
+        "relative_path": "verification/independent-review/last-review.json",
+        "verification_status": "verified",
+        "evidence_ledger_record_id": null
+      }
+    ],
+    "enforcement_scripts": [
+      "scripts/verify_governance_chain.py",
+      "scripts/verify_institutionalization.py",
+      "scripts/append_regression_ledger.py",
+      "scripts/governance_failure_injection_tests.py",
+      "scripts/ci_self_verify_governance_artifact.py",
+      "scripts/tip_state_helpers.py"
+    ],
+    "ci_verification_commands": [
+      "python3 scripts/verify_governance_chain.py --root .",
+      "python3 scripts/verify_institutionalization.py --root ."
+    ]
+  }
+}
