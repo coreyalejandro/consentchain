@@ -2,13 +2,11 @@
 """
 verify_governance_chain.py
 
-Machine-checkable C-RSP governance chain validation (repo-agnostic layout):
+Machine-checkable governance chain validation for TLC:
 - JSON Schema validation for evidence ledger records (runtime)
 - Commit-bound verification artifact under verification/runs/
 - Referential closure: doctrine, invariants, enforcement, evidence, inventory
 - Inventory manifest vs canonical_paths; MD timestamp sync
-- CI parity lines are taken from MASTER_PROJECT_INVENTORY.json
-  governance_artifacts.ci_verification_commands (not hardcoded)
 
 Exit codes: 0 OK, 1 validation failure, 2 usage/read/dependency error
 """
@@ -39,6 +37,18 @@ from tip_state_helpers import (  # noqa: E402
     tip_truth_aligned_with_status,
 )
 
+# PASS 10A: STATUS surface (import after path setup)
+def _load_status_surface_module(root: Path):
+    import importlib.util
+
+    p = root / "scripts" / "render_status_surface.py"
+    spec = importlib.util.spec_from_file_location("_tlc_render_status_surface", p)
+    if spec is None or spec.loader is None:
+        return None
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
 try:
     from jsonschema import Draft202012Validator
     from jsonschema.exceptions import ValidationError
@@ -49,10 +59,12 @@ except ImportError:
     )
     sys.exit(2)
 
-# Fallback when inventory is unreadable (should not happen after required-path checks)
-DEFAULT_CI_COMMAND_LINES = (
+# Parity: must match .github/workflows/verify.yml and MASTER_PROJECT_INVENTORY ci_verification_commands
+EXPECTED_CI_COMMAND_LINES = (
+    "python3 scripts/verify_project_topology.py --root . --with-governance",
     "python3 scripts/verify_governance_chain.py --root .",
     "python3 scripts/verify_institutionalization.py --root .",
+    "python3 scripts/verify_cross_repo_consistency.py --canonical-root the-living-constitution --target-root .",
 )
 
 
@@ -62,7 +74,7 @@ def _parse_args() -> argparse.Namespace:
         "--root",
         type=Path,
         default=None,
-        help="Repository root (default: parent of scripts/)",
+        help="TLC repository root (default: parent of scripts/)",
     )
     return p.parse_args()
 
@@ -316,13 +328,65 @@ def _check_ci_remote_record(root: Path, errors: List[str]) -> None:
             errors.append(f"INVARIANT_18: claimed_remote record requires non-empty artifact_commit_hash (got {ach!r})")
 
 
-def _check_ci_parity(root: Path, errors: List[str], ci_command_lines: Tuple[str, ...]) -> None:
+def _check_status_surface(root: Path, errors: List[str]) -> None:
+    """INVARIANT_38–INVARIANT_42: STATUS.json sole authority; STATUS.md mirror; consistency with sources."""
+    status_json = root / "STATUS.json"
+    status_md = root / "STATUS.md"
+    policy = root / "verification" / "closed-epistemics-open-interfaces-policy.json"
+    if not status_json.is_file():
+        errors.append("INVARIANT_38: STATUS.json missing (sole authoritative current-status artifact)")
+        return
+    if not status_md.is_file():
+        errors.append("INVARIANT_39: STATUS.md missing (human mirror of STATUS.json)")
+        return
+    if not policy.is_file():
+        errors.append("INVARIANT_41: verification/closed-epistemics-open-interfaces-policy.json missing")
+        return
+    mod = _load_status_surface_module(root)
+    if mod is None:
+        errors.append("INVARIANT_38: cannot load scripts/render_status_surface.py")
+        return
+    try:
+        aggregated = mod.aggregate_status(root)
+    except Exception as e:
+        errors.append(f"INVARIANT_42: aggregate_status failed: {e}")
+        return
+    try:
+        with status_json.open("r", encoding="utf-8") as f:
+            on_disk = json.load(f)
+        if not isinstance(on_disk, dict):
+            errors.append("INVARIANT_38: STATUS.json root must be an object")
+            return
+    except (OSError, json.JSONDecodeError) as e:
+        errors.append(f"INVARIANT_38: cannot read STATUS.json: {e}")
+        return
+    # head_sha cannot equal the containing commit id (self-hash paradox); bind to live HEAD for compare.
+    head = _git_head(root)
+    agg_n = dict(aggregated)
+    disk_n = dict(on_disk)
+    agg_n["head_sha"] = head
+    disk_n["head_sha"] = head
+    if json.dumps(agg_n, sort_keys=True) != json.dumps(disk_n, sort_keys=True):
+        errors.append(
+            "INVARIANT_42: STATUS.json disagrees with aggregate from inventory, record, ledger, "
+            "and policy (head_sha normalized to git HEAD) — run: python3 scripts/render_status_surface.py --root ."
+        )
+    md_text = status_md.read_text(encoding="utf-8")
+    expected_md = mod.render_markdown_from_status(disk_n)
+    if md_text.replace("\r\n", "\n") != expected_md.replace("\r\n", "\n"):
+        errors.append(
+            "INVARIANT_39: STATUS.md is not a faithful render of STATUS.json — run: "
+            "python3 scripts/render_status_surface.py --root ."
+        )
+
+
+def _check_ci_parity(root: Path, errors: List[str]) -> None:
     wf = root / ".github" / "workflows" / "verify.yml"
     if not wf.is_file():
         errors.append("INVARIANT_13: missing .github/workflows/verify.yml")
         return
     text = wf.read_text(encoding="utf-8")
-    for line in ci_command_lines:
+    for line in EXPECTED_CI_COMMAND_LINES:
         if line not in text:
             errors.append(
                 f"INVARIANT_13: verify.yml must contain exact command line: {line!r}"
@@ -334,7 +398,7 @@ def _check_inventory_manifest(
     data: Dict[str, Any],
     errors: List[str],
     broken: List[str],
-) -> Tuple[str, ...]:
+) -> None:
     gov = data.get("governance_artifacts") or {}
     canonical = gov.get("canonical_paths") or {}
     manifest = gov.get("artifact_manifest")
@@ -342,17 +406,13 @@ def _check_inventory_manifest(
         errors.append(
             "governance_artifacts.artifact_manifest must be a non-empty array (inventory integrity)"
         )
-        return DEFAULT_CI_COMMAND_LINES
+        return
     ci_cmds = gov.get("ci_verification_commands")
-    if not isinstance(ci_cmds, list) or len(ci_cmds) < 1:
+    if ci_cmds != list(EXPECTED_CI_COMMAND_LINES):
         errors.append(
-            "governance_artifacts.ci_verification_commands must be a non-empty array "
-            "listing exact python command lines required in .github/workflows/verify.yml"
+            "governance_artifacts.ci_verification_commands must match EXPECTED_CI_COMMAND_LINES "
+            f"(got {ci_cmds!r})"
         )
-        return DEFAULT_CI_COMMAND_LINES
-    if not all(isinstance(x, str) and x.strip() for x in ci_cmds):
-        errors.append("governance_artifacts.ci_verification_commands entries must be non-empty strings")
-        return DEFAULT_CI_COMMAND_LINES
 
     for i, row in enumerate(manifest):
         if not isinstance(row, dict):
@@ -381,8 +441,6 @@ def _check_inventory_manifest(
             )
         if eid is not None and not isinstance(eid, str):
             errors.append(f"artifact_manifest[{ck}]: evidence_ledger_record_id must be string or null")
-
-    return tuple(str(x).strip() for x in ci_cmds)
 
 
 def _collect_errors(root: Path) -> Tuple[
@@ -417,6 +475,9 @@ def _collect_errors(root: Path) -> Tuple[
         root / "verification" / "GOVERNANCE_SYSTEM_CARD.md",
         root / "verification" / "independent-review" / "last-review.json",
         root / "verification" / "pass7-branch-verification-policy.json",
+        root / "STATUS.json",
+        root / "STATUS.md",
+        root / "verification" / "closed-epistemics-open-interfaces-policy.json",
     ]
     for p in required_paths:
         if not p.is_file():
@@ -459,10 +520,10 @@ def _collect_errors(root: Path) -> Tuple[
     reg = _load_json(inv_path)
     inv_rows = reg.get("invariants", [])
     inv_ids = {x["id"] for x in inv_rows if isinstance(x, dict) and "id" in x}
-    expected = {f"INVARIANT_{i:02d}" for i in range(1, 38)}
+    expected = {f"INVARIANT_{i:02d}" for i in range(1, 43)}
     if inv_ids != expected:
         inv_fail.append(
-            f"invariant-registry must define exactly INVARIANT_01..INVARIANT_37; got {sorted(inv_ids)}"
+            f"invariant-registry must define exactly INVARIANT_01..INVARIANT_42; got {sorted(inv_ids)}"
         )
 
     for row in inv_rows:
@@ -558,13 +619,15 @@ def _collect_errors(root: Path) -> Tuple[
                 broken.append(f"record {rid}: unknown related_invariant_ids {inv}")
 
     data = _load_json(inventory_path)
-    ci_lines = _check_inventory_manifest(root, data, errors, broken)
-    _check_ci_parity(root, errors, ci_lines)
+    _check_inventory_manifest(root, data, errors, broken)
+    _check_ci_parity(root, errors)
     _check_ci_remote_record(root, errors)
     _check_ci_provenance_inventory(root, data, errors)
     cp2 = data.get("ci_provenance")
     if isinstance(cp2, dict):
         _check_tip_state_exactness(root, cp2, errors)
+
+    _check_status_surface(root, errors)
 
     gov = data.get("governance_artifacts") or {}
     canonical = gov.get("canonical_paths") or {}
@@ -657,7 +720,7 @@ def _build_acceptance_results(
         {"id": "AC-2", "passed": not has_fail, "detail": "Commit-bound verification artifact generated"},
         {"id": "AC-3", "passed": not has_fail, "detail": "commit_hash non-empty from git"},
         {"id": "AC-4", "passed": not has_fail, "detail": "Referential governance chain complete"},
-        {"id": "AC-5", "passed": not has_fail, "detail": "CI commands match inventory ci_verification_commands"},
+        {"id": "AC-5", "passed": not has_fail, "detail": "CI commands match EXPECTED_CI_COMMAND_LINES"},
         {"id": "AC-6", "passed": not has_fail, "detail": "Inventory manifest + MD timestamp sync"},
         {"id": "AC-7", "passed": not has_fail, "detail": "Failures yield non-zero exit"},
     ]
