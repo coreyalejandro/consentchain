@@ -6,7 +6,7 @@
       "run_attempt": "1",
       "workflow_name": "Verify ConsentChain Governance",
       "workflow_sha256": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
-      "commit_sha": "87483746e993484aa5877d8113494f398e9208b1",
+      "commit_sha": "a69e135791c572ee30409b67955eb233acbd9712",
       "branch_ref": "refs/heads/main",
       "timestamp_utc": "2026-03-30T16:00:00Z",
       "conclusion": "success",

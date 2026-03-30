@@ -11,14 +11,14 @@
   },
   "ci_provenance": {
     "last_verified_run_id": "bootstrap-local",
-    "last_verified_commit": "87483746e993484aa5877d8113494f398e9208b1",
-    "last_remote_qualifying_commit": "87483746e993484aa5877d8113494f398e9208b1",
+    "last_verified_commit": "a69e135791c572ee30409b67955eb233acbd9712",
+    "last_remote_qualifying_commit": "a69e135791c572ee30409b67955eb233acbd9712",
     "artifact_name": "pending-remote-governance-artifact",
     "verify_workflow_sha256": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
     "verify_workflow_sha256_at_last_remote_run": "570c79c5439a13f5660e73a02cb8b4ffb3696d2af30a472f3e4c1c251a39c10d",
     "status": "pending",
     "tip_state_truth": "tip_pending",
-    "escalation_state": "none",
+    "escalation_state": "review_required",
     "reviewer_status": "pending"
   },
   "governance_artifacts": {
