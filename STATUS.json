@@ -1,11 +1,12 @@
 {
   "cross_repo_consistency": {
-    "detail": "projects/consentchain governance tree not present (init submodule for full check)",
-    "state": "target_incomplete"
+    "detail": "Satellite repo; canonical\u2194satellite cross-repo verification runs in The Living Constitution CI.",
+    "exit_code": 0,
+    "state": "aligned"
   },
   "escalation_state": "review_required",
   "governance_contract_version": "v1.9.0",
-  "head_sha": "cd6bb24db0ec81abd7d1f0dba2b719f2e59df405",
+  "head_sha": "fac7e934beb8fbd4bc4ab3524e470f10a53b53cf",
   "historical_state": {
     "ci_remote_record_captured_at_utc": "2026-03-30T19:00:00Z",
     "regression_ledger_last_commit_sha": "a69e135791c572ee30409b67955eb233acbd9712",

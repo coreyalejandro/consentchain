@@ -7,7 +7,7 @@
 |-------|-------|
 | `project` | `coreyalejandro/consentchain` |
 | `verification_target` | `fd149cf8c2a9cc3e746322c90cfab507f8cc0be1` |
-| `head_sha` | `cd6bb24db0ec81abd7d1f0dba2b719f2e59df405` |
+| `head_sha` | `fac7e934beb8fbd4bc4ab3524e470f10a53b53cf` |
 | `last_verified_commit` | `d6371f645d7d68a9238441ccdc4be27da0c88470` |
 | `last_verified_run_id` | `23761674094` |
 | `tip_state_truth` | `tip_pending` |
@@ -32,8 +32,8 @@
 
 ## Cross-repo consistency (canonical TLC CI)
 
-- **state:** `target_incomplete`
-- **detail:** projects/consentchain governance tree not present (init submodule for full check)
+- **state:** `aligned`
+- **detail:** Satellite repo; canonical↔satellite cross-repo verification runs in The Living Constitution CI.
 
 ## Truth boundary
 
