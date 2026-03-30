@@ -5,7 +5,7 @@
   },
   "escalation_state": "review_required",
   "governance_contract_version": "v1.8.0",
-  "head_sha": "b75bb0e0f929906e89c53dc642bf3f5e477e2eaf",
+  "head_sha": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
   "historical_state": {
     "ci_remote_record_captured_at_utc": "2026-03-30T19:00:00Z",
     "regression_ledger_last_commit_sha": "a69e135791c572ee30409b67955eb233acbd9712",
@@ -15,13 +15,19 @@
   "inventory_meta_generated_at_utc": "2026-03-30T19:00:00Z",
   "last_verified_commit": "d6371f645d7d68a9238441ccdc4be27da0c88470",
   "last_verified_run_id": "23761674094",
-  "project": "coreyalejandro/the-living-constitution",
+  "project": "coreyalejandro/consentchain",
   "reviewer_status": "pending",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "tip_state_truth": "tip_pending",
+  "truth_anchor": {
+    "commit": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
+    "type": "git_tag",
+    "value": "tlc-gov-verified-fd149cf"
+  },
   "truth_boundary": {
     "policy_reference": "verification/closed-epistemics-open-interfaces-policy.json",
     "reason": "Epistemic closure inside the repo: current operational status is synthesized into STATUS.json from inventory ci_provenance, git HEAD, workflow identity, regression ledger tail, and remote evidence record; STATUS.md is a deterministic render. External parties receive only exported proofs and schema-valid artifacts listed under open_interfaces."
   },
+  "verification_target": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
   "workflow_sha": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1"
 }

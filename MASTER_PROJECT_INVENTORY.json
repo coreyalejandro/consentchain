@@ -3,6 +3,7 @@
     "phase": "0",
     "inventory_kind": "master_project_inventory",
     "generated_at_utc": "2026-03-30T19:00:00Z",
+    "repo": "coreyalejandro/consentchain",
     "registry_path_migration_ref": "04-consentchain/REGISTRY_PATH_MIGRATION.md",
     "migration_docs": [
       "04-consentchain/REGISTRY_PATH_MIGRATION.md"
@@ -32,7 +33,9 @@
     "status": "pending",
     "tip_state_truth": "tip_pending",
     "escalation_state": "review_required",
-    "reviewer_status": "pending"
+    "reviewer_status": "pending",
+    "verification_anchor_tag": "tlc-gov-verified-fd149cf",
+    "verification_anchor_commit": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1"
   },
   "governance_artifacts": {
     "contract_version": "v1.8.0",
