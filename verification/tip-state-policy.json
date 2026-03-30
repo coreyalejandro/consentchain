@@ -35,8 +35,9 @@
   ],
   "protected_surface_globs": ["verification/*.schema.json"],
   "qualifying_remote_run": {
-    "description": "Only a succeeding GitHub Actions run of Verify ConsentChain Governance that executes the full pipeline may promote tip-state to verified.",
+    "description": "Only a succeeding GitHub Actions run of Verify Living Constitution that executes the full pipeline may promote tip-state to verified.",
     "required_steps": [
+      "verify_project_topology.py --with-governance",
       "verify_governance_chain.py",
       "append_regression_ledger.py",
       "verify_institutionalization.py",

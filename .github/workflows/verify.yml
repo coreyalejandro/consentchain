@@ -15,6 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Checkout The Living Constitution (canonical governance)
+        uses: actions/checkout@v4
+        with:
+          repository: coreyalejandro/the-living-constitution
+          path: the-living-constitution
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -29,8 +36,15 @@ jobs:
           echo "GITHUB_SHA=$GITHUB_SHA"
           echo "GITHUB_REF=$GITHUB_REF"
 
-      - name: Verify governance chain
-        run: python3 scripts/verify_governance_chain.py --root .
+      - name: Verify project topology (with governance chain)
+        run: |
+          set -euo pipefail
+          python3 scripts/verify_project_topology.py --root . --with-governance
+
+      - name: Verify governance chain (parity second pass)
+        run: |
+          set -euo pipefail
+          python3 scripts/verify_governance_chain.py --root .
 
       - name: Append regression ledger (CI recorded run)
         if: success()
@@ -39,6 +53,12 @@ jobs:
       - name: Verify institutionalization layer
         if: success()
         run: python3 scripts/verify_institutionalization.py --root .
+
+      - name: Verify cross-repo governance consistency
+        if: success()
+        run: |
+          set -euo pipefail
+          python3 scripts/verify_cross_repo_consistency.py --canonical-root the-living-constitution --target-root .
 
       - name: Adversarial failure-injection governance tests
         if: success()

@@ -1,13 +1,22 @@
-# Verification matrix (ConsentChain — PASS 8 template)
+# Verification Matrix
+## Every Resume Claim -> Evidence
 
-**Generated (UTC):** 2026-03-30T16:00:00Z  
-**Machine-readable inventory:** `MASTER_PROJECT_INVENTORY.json`
+Last updated: 2026-03-30
 
-| # | Claim | Evidence | Status |
-|---|--------|----------|--------|
-| 1 | C-RSP governance chain (INVARIANT_01–37) present and machine-checked | `scripts/verify_governance_chain.py`; `00-constitution/`; `03-enforcement/` | verified (local) |
-| 2 | Institutionalization layer (regression ledger, review policy, system card) | `scripts/verify_institutionalization.py`; `verification/regression-ledger/` | verified (local) |
-| 3 | CI parity: workflow contains inventory `ci_verification_commands` | `.github/workflows/verify.yml` | verified (local) |
-| 4 | Remote qualifying run (artifact + record.json) | GitHub Actions; `verification/ci-remote-evidence/record.json` | pending first green run |
+| # | Resume Claim | Project | Evidence Location | Verification Method | Status | Result |
+|---|-------------|---------|-------------------|-------------------|--------|--------|
+| 1 | C-RSP governance chain (INVARIANT_01–37) present and machine-checked | ConsentChain | `scripts/verify_governance_chain.py`; `00-constitution/`; `03-enforcement/` | Local verifier | VERIFIED | PASS 9 — parity with TLC canonical |
+| 2 | Institutionalization layer (regression ledger, review policy, system card) | ConsentChain | `scripts/verify_institutionalization.py`; `verification/regression-ledger/` | Local verifier | VERIFIED | Schema + policy files aligned |
+| 3 | CI parity: workflow contains inventory `ci_verification_commands` | ConsentChain | `.github/workflows/verify.yml`; `MASTER_PROJECT_INVENTORY.json` | `verify_governance_chain.py` | VERIFIED | Commands embedded in workflow |
+| 4 | Cross-repo governance parity vs The Living Constitution | ConsentChain | `scripts/verify_cross_repo_consistency.py`; TLC canonical checkout | Script compare | PASS 9 | Local + CI step |
+| 5 | Remote qualifying run (artifact + record.json) | ConsentChain | GitHub Actions; `verification/ci-remote-evidence/record.json` | Remote CI | PENDING | First green run pending |
 
-**Not claimed:** Resume-level product claims beyond this governance bootstrap; those remain covered by separate application tests and deployments.
+## Verification Progress
+
+- Total claims: 5
+- Verified: 4
+- Partial: 0
+- Pending: 1 (remote qualifying run)
+- Failed: 0
+
+*Updated 2026-03-30 — PASS 9 matrix categories aligned with TLC canonical column headers.*
