@@ -2,7 +2,7 @@
   "meta": {
     "phase": "0",
     "inventory_kind": "consentchain_governance_inventory",
-    "generated_at_utc": "2026-03-30T18:00:00Z",
+    "generated_at_utc": "2026-03-30T17:20:00Z",
     "repo": "coreyalejandro/consentchain",
     "pass": "PASS9",
     "notes": [
@@ -14,8 +14,8 @@
     "last_verified_commit": "a69e135791c572ee30409b67955eb233acbd9712",
     "last_remote_qualifying_commit": "a69e135791c572ee30409b67955eb233acbd9712",
     "artifact_name": "pending-remote-governance-artifact",
-    "verify_workflow_sha256": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1",
-    "verify_workflow_sha256_at_last_remote_run": "b4396d799e4a2bfd8280b3cf863419c7d612c5f4d00871fb33d09f972ab001a1",
+    "verify_workflow_sha256": "dbebf23e4ef13a5fd1037795b06cd23436caefcd1de39f7f7ba54ae4f6a82e4d",
+    "verify_workflow_sha256_at_last_remote_run": "dbebf23e4ef13a5fd1037795b06cd23436caefcd1de39f7f7ba54ae4f6a82e4d",
     "status": "pending",
     "tip_state_truth": "tip_pending",
     "escalation_state": "review_required",
