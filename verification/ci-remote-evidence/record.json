@@ -2,12 +2,12 @@
   "schema_version": "1.0.0",
   "claimed_remote": true,
   "workflow_conclusion": "success",
-  "workflow_run_id": "23760900560",
-  "workflow_run_url": "https://github.com/coreyalejandro/consentchain/actions/runs/23760900560",
+  "workflow_run_id": "23761674094",
+  "workflow_run_url": "https://github.com/coreyalejandro/consentchain/actions/runs/23761674094",
   "workflow_run_attempt": "1",
-  "artifact_name": "governance-verification-runs-23760900560-1",
-  "artifact_commit_hash": "108847769113e965868c3b8da1b5365965d05348",
+  "artifact_name": "governance-verification-runs-23761674094-1",
+  "artifact_commit_hash": "d6371f645d7d68a9238441ccdc4be27da0c88470",
   "artifact_upload_succeeded": true,
-  "captured_at_utc": "2026-03-30T18:40:00Z",
-  "notes": "Mainline convergence (C-RSP): green run 23760900560 on 1088477 (main); TLC canonical checkout ref main; full pipeline including verify_cross_repo_consistency; topology, governance chain (parity), institutionalization, failure-injection, artifact upload+self-verify."
+  "captured_at_utc": "2026-03-30T19:00:00Z",
+  "notes": "PASS 10C (C-RSP): adjudicated green run 23761674094 on d6371f6 (main). Governance artifact lists INVARIANT_01–INVARIANT_50 including INVARIANT_43–50. Full pipeline: topology+gov chain, parity pass, institutionalization, failure-injection, artifact upload+self-verify. Paired TLC run 23761679469 @ f0414d3."
 }
