@@ -81,11 +81,13 @@ export default function EssaysPage() {
               <div className="border-t border-zinc-800 pt-6">
                 <h3 className="text-xl font-light tracking-wide text-zinc-50 mb-3">Why Anthropic?</h3>
                 <p className="text-sm text-zinc-300 leading-relaxed">
-                  Six months ago, I didn't know "AI Safety" was a recognized field. Six weeks ago,
-                  I read "Constitutional AI," and my brain finally found its rhythm. The pulse of
-                  my neurons, normally syncopated and chaotic, matched the beat of Anthropic's
+                  Six months ago, I didn&rsquo;t know &ldquo;AI Safety&rdquo; was a thing. I&rsquo;d been working daily
+                  with AI building one app after another, but completely unaware that it was a recognized field.
+                  Although safety is exactly what I needed after devastating repeated run-ins with model misalignment.
+                  Six weeks ago, I read &ldquo;Constitutional AI,&rdquo; and my brain finally found its rhythm. The pulse of
+                  my neurons, normally syncopated and chaotic, matched the beat of Anthropic&rsquo;s
                   framework. It felt like Home. By remixing my polymathic experience with
-                  Anthropic's mission, I can forge new production lines that serve corporate needs
+                  Anthropic&rsquo;s mission, I can forge new production lines that serve corporate needs
                   and communal commitments with joyful, faithful precision.
                 </p>
               </div>
