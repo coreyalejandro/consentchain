@@ -444,9 +444,9 @@ export default function InterviewPage() {
 
       {/* ── HEADER ── */}
       <header className="mb-12">
-        <div className="text-xs tracking-[0.3em] text-zinc-500 uppercase mb-3">C-RSP v4.0 — Interview Prep</div>
+        <div className="text-xs tracking-[0.3em] text-zinc-500 uppercase mb-3">C-RSP v4.0 — Mock Interview</div>
         <h1 id="interview-title" className="text-5xl font-extralight tracking-[0.15em] text-zinc-50 mb-4">
-          THE SIMULATION
+          MOCK INTERVIEW
         </h1>
         <p className="text-sm font-light text-zinc-300 max-w-2xl leading-relaxed mb-6">
           18 rounds. Real questions. The ones designed to make you flinch — answered.
@@ -491,7 +491,7 @@ export default function InterviewPage() {
               <div className="pt-6 mb-8">
                 <h3 className="text-xs tracking-[0.3em] text-zinc-500 uppercase mb-4">What This Is</h3>
                 <p className="text-sm text-zinc-300 leading-relaxed max-w-3xl">
-                  The Simulation is a <strong className="text-zinc-200 font-normal">Deliberate Practice Interview Preparation System</strong> —
+                  This mock interview is a <strong className="text-zinc-200 font-normal">Deliberate Practice Interview Preparation System</strong> —
                   not a Q&A review sheet. There is a critical difference, and it matters for your performance.
                 </p>
                 <p className="text-sm text-zinc-400 leading-relaxed max-w-3xl mt-3">
@@ -501,7 +501,7 @@ export default function InterviewPage() {
                   cannot generate it under pressure. The live interview is not ideal conditions.
                 </p>
                 <p className="text-sm text-zinc-400 leading-relaxed max-w-3xl mt-3">
-                  This system forces <strong className="text-zinc-200 font-normal">retrieval practice</strong>: you attempt to
+                  This format forces <strong className="text-zinc-200 font-normal">retrieval practice</strong>: you attempt to
                   answer before revealing the model response. That gap — the act of generating under uncertainty — is where
                   durable memory and interview performance actually form.
                 </p>
@@ -538,7 +538,7 @@ export default function InterviewPage() {
                       Ericsson, Krampe & Tesch-Römer (1993) — the foundational deliberate practice paper — established that
                       expert performance requires <strong className="text-zinc-300">immediate, specific feedback on errors</strong>,
                       not simply time on task. Repetition without feedback produces automatization of existing patterns, not
-                      improvement. Each round in this system includes a Coach&rsquo;s Debrief that provides the
+                      improvement. Each round in this mock interview includes a Coach&rsquo;s Debrief that provides the
                       specific behavioral feedback that solo review cannot. Read the debrief after every round, even the ones
                       where your answer felt strong.
                     </p>
