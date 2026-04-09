@@ -142,6 +142,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Application Short Answers — Talisman Draft */}
+      <section
+        className="mb-16 border border-zinc-800 p-8"
+        style={{ backgroundColor: '#18181b' }}
+        aria-labelledby="talisman-draft-heading"
+      >
+        <h2 id="talisman-draft-heading" className="text-xs tracking-[0.3em] text-zinc-600 uppercase mb-6">
+          Anthropic Fellowship — Talisman Draft (Short Answers)
+        </h2>
+        <div className="grid gap-6 lg:grid-cols-2">
+          <div className="border border-zinc-800 p-6" style={{ backgroundColor: '#111116' }}>
+            <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Project Highlight (Technical Execution)</div>
+            <div className="space-y-3 text-sm text-zinc-300 leading-relaxed">
+              <p className="text-zinc-200 font-light">
+                <span className="text-zinc-50 font-normal">Project:</span> The Living Constitution (TLC) &ldquo;I&rsquo;m Just a Build&rdquo;
+              </p>
+              <p>
+                I architected a Python 3.13-compliant Model Context Protocol (MCP) safety server (the Guardian Kernel) that
+                enforces constitutional invariants across agentic workflows in real-time, achieving a 100% proactive anomaly
+                detection rate.
+              </p>
+              <p>
+                To translate this highly abstract governance system into public-facing pedagogical media, I engineered a deterministic,
+                Remotion-based cinematic engine to programmatically generate an analog-homage safety teaser titled &ldquo;I&rsquo;m Just a Build.&rdquo;
+              </p>
+              <p className="text-zinc-400">
+                This demonstrates my capacity to own the full AI Safety stack—from resolving bleeding-edge library dependency conflicts
+                (FastMCP) at the kernel level to deploying highly constrained media pipelines for public transparency.
+              </p>
+            </div>
+          </div>
+
+          <div className="border border-zinc-800 p-6" style={{ backgroundColor: '#111116' }}>
+            <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Safety Philosophy (The Talisman Concept)</div>
+            <div className="space-y-3 text-sm text-zinc-300 leading-relaxed">
+              <p className="text-zinc-200 font-light">
+                <span className="text-zinc-50 font-normal">Philosophy:</span> Executable Law via Deterministic Scaffolding
+              </p>
+              <p>
+                My approach to AI Safety is a direct manifestation of my neurodivergent cognitive profile (Autism/Schizophrenia).
+                I treat extreme, exhaustive task-analysis as the fundamental substrate of alignment.
+              </p>
+              <p>
+                I do not trust narrative intent; I trust <span className="text-zinc-50 font-normal">Executable Law</span>. I build deterministic,
+                cryptographic scaffolds—which I call &ldquo;Talismans&rdquo;—that anchor model behavior and prevent reasoning collapse.
+              </p>
+              <p>
+                For example, before any code is written in a new repository within my architecture, a C-RSP (Constitutionally-Regulated
+                Single Pass) JSON contract is generated and bound to the directory. The environment cannot execute without its Talisman.
+                TLC is an operating model where uncertainty is regulated by strict, verifiable proof preceding execution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Safety Axiom */}
       <section
         className="mb-16 border border-zinc-800 p-8"

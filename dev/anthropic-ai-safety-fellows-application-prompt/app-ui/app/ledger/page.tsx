@@ -148,6 +148,18 @@ export default function LedgerPage() {
         </h2>
         <div className="space-y-6">
           <div>
+            <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Project Highlight (Technical Execution)</div>
+            <blockquote className="text-sm text-zinc-300 leading-relaxed italic border-l border-zinc-700 pl-4" role="quote">
+              &ldquo;Project: The Living Constitution (TLC) &amp; &lsquo;I&rsquo;m Just a Build.&rsquo; I architected a Python 3.13-compliant Model Context
+              Protocol (MCP) safety server (the Guardian Kernel) that enforces constitutional invariants across agentic workflows in
+              real-time, achieving a 100% proactive anomaly detection rate. To translate this highly abstract governance system into
+              public-facing pedagogical media, I engineered a deterministic, Remotion-based cinematic engine to programmatically generate
+              an analog-homage safety teaser titled &lsquo;I&rsquo;m Just a Build.&rsquo; This project demonstrates my capacity to own the full AI Safety
+              stack—from resolving bleeding-edge library dependency conflicts (FastMCP) at the kernel level to deploying highly constrained
+              media pipelines for public transparency.&rdquo;
+            </blockquote>
+          </div>
+          <div>
             <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Statement</div>
             <blockquote className="text-sm text-zinc-300 leading-relaxed italic border-l border-zinc-700 pl-4" role="quote">
               &ldquo;I go through great pains to ensure my work is truthful, transparent, and cognitively tangible.
@@ -166,6 +178,18 @@ export default function LedgerPage() {
               Gatekeeper Prompts (or &lsquo;Talismans&rsquo;) to enforce architectural constraints (DRY, KISS, Determinism)
               before any generation occurs. I view task analysis not just as a method, but as the fundamental
               substrate of AI Safety.&rdquo;
+            </blockquote>
+          </div>
+          <div>
+            <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Safety Philosophy (The &ldquo;Talisman&rdquo; Concept)</div>
+            <blockquote className="text-sm text-zinc-300 leading-relaxed italic border-l border-zinc-700 pl-4" role="quote">
+              &ldquo;Philosophy: Executable Law via Deterministic Scaffolding. My approach to AI Safety is a direct manifestation of my
+              neurodivergent cognitive profile (Autism/Schizophrenia). I treat extreme, exhaustive task-analysis as the fundamental
+              substrate of alignment. I do not trust narrative intent; I trust &lsquo;Executable Law.&rsquo; I build deterministic, cryptographic
+              scaffolds—which I call &lsquo;Talismans&rsquo;—that anchor model behavior and prevent reasoning collapse. For example, before any code is
+              written in a new repository within my architecture, a C-RSP (Constitutionally-Regulated Single Pass) JSON contract is generated
+              and bound to the directory. The environment cannot execute without its Talisman. TLC is an operating model where uncertainty
+              is regulated by strict, verifiable proof preceding execution.&rdquo;
             </blockquote>
           </div>
         </div>
