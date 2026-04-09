@@ -14,7 +14,7 @@ const primarySectors = [
 const secondaryNav = [
   { href: '/essays', label: 'Essays' },
   { href: '/research', label: 'Research' },
-  { href: '/itayn', label: 'ITAYN' },
+  { href: '/demo', label: 'Demo' },
   { href: '/interview', label: 'Interview' },
 ];
 
@@ -34,9 +34,9 @@ export default function Navigation() {
           <Link
             href="/"
             className="text-xs font-light tracking-[0.25em] text-zinc-500 uppercase"
-            aria-label="COL-PROACTIVE - Home"
+            aria-label="Corey Alejandro - Home"
           >
-            COL-PROACTIVE
+            COREY ALEJANDRO
           </Link>
           <div className="flex items-center space-x-1" role="menubar" aria-label="Primary sectors">
             {primarySectors.map((item) => {
