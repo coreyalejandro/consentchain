@@ -75,9 +75,10 @@ export default function Home() {
             three decades of building safe spaces, that{' '}
             <em className="text-zinc-200">the structure of the container determines the quality of what it holds.</em>
           </p>
-          <p className="text-sm text-zinc-500 leading-relaxed">
+          <p className="text-sm text-zinc-300 leading-relaxed">
             My analytical style is shaped by a neurodivergent cognitive profile (Autism and Schizophrenia) and
-            professional experience as a K–20 instructional designer. I view task analysis not just as a method,
+            professional experience as a K–20 classroom teacher, charter school founder and principal, college
+            administrator and instructional systems designer. I view task analysis not just as a method,
             but as the fundamental substrate of AI Safety.
           </p>
         </div>

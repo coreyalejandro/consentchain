@@ -161,7 +161,8 @@ export default function LedgerPage() {
             <div className="text-xs text-zinc-600 tracking-wider uppercase mb-3">Neurodivergent Substrate</div>
             <blockquote className="text-sm text-zinc-300 leading-relaxed italic border-l border-zinc-700 pl-4" role="quote">
               &ldquo;My analytical style is shaped by a neurodivergent cognitive profile (Autism and Schizophrenia)
-              and professional experience as a K–20 instructional designer. In my workflow, I construct
+              and professional experience as a K–20 classroom teacher, charter school founder and principal, college
+              administrator and instructional systems designer. In my workflow, I construct
               Gatekeeper Prompts (or &lsquo;Talismans&rsquo;) to enforce architectural constraints (DRY, KISS, Determinism)
               before any generation occurs. I view task analysis not just as a method, but as the fundamental
               substrate of AI Safety.&rdquo;
