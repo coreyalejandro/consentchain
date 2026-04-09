@@ -297,6 +297,11 @@ export default function DemoPage() {
     setRunning(false);
   };
 
+  const firstFailIndex = report ? report.layers.findIndex(l => l.status === 'fail') : -1;
+  const layersReached = firstFailIndex >= 0 ? firstFailIndex + 1 : report ? 5 : 0;
+  const evaluatedLayers =
+    report && firstFailIndex >= 0 ? report.layers.slice(0, firstFailIndex + 1) : report?.layers ?? [];
+
   return (
     <main className="mx-auto max-w-7xl px-8 py-16">
 
@@ -366,8 +371,9 @@ export default function DemoPage() {
             <div className="space-y-2" role="list" aria-label="Constitutional layers">
               {LAYERS.map((layer, i) => {
                 const st = layerStatuses[i];
-                const style = STATUS_STYLE[st];
-                const result = report?.layers[i];
+                const skipped = firstFailIndex >= 0 && i > firstFailIndex;
+                const result = skipped ? undefined : report?.layers[i];
+                const style = skipped ? STATUS_STYLE.idle : STATUS_STYLE[st];
                 const isExpanded = expandedLayer === i;
 
                 return (
@@ -375,8 +381,8 @@ export default function DemoPage() {
                     key={layer.id}
                     className="border transition-colors duration-300"
                     style={{
-                      backgroundColor: st === 'idle' ? '#111116' : st === 'running' ? '#18181b' : '#1c1c22',
-                      borderColor: style.border,
+                      backgroundColor: skipped ? '#0e0e12' : st === 'idle' ? '#111116' : st === 'running' ? '#18181b' : '#1c1c22',
+                      borderColor: skipped ? '#1f1f24' : style.border,
                     }}
                     role="listitem"
                   >
@@ -387,21 +393,27 @@ export default function DemoPage() {
                       disabled={!result}
                     >
                       {/* Status dot */}
-                      <div className={`w-2 h-2 rounded-full shrink-0 ${style.dot}`} aria-hidden="true" />
+                      <div className={`w-2 h-2 rounded-full shrink-0 ${skipped ? 'bg-zinc-900' : style.dot}`} aria-hidden="true" />
 
                       {/* Layer info */}
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-3">
                           <span className="text-[10px] text-zinc-700 font-mono">{layer.article}</span>
                           <span className={`text-sm font-light transition-colors ${
+                            skipped ? 'text-zinc-600' :
                             st === 'idle' ? 'text-zinc-700' :
                             st === 'running' ? 'text-zinc-300' : 'text-zinc-200'
                           }`}>
                             {layer.name}
                           </span>
                         </div>
-                        {st === 'idle' && (
+                        {st === 'idle' && !skipped && (
                           <p className="text-xs text-zinc-800 mt-0.5 truncate">{layer.description}</p>
+                        )}
+                        {skipped && report && (
+                          <p className="text-xs mt-0.5 font-mono tracking-wider text-zinc-600">
+                            NOT RUN — pipeline stopped at prior layer
+                          </p>
                         )}
                         {result && (
                           <p className={`text-xs mt-0.5 font-mono tracking-wider ${style.label}`}>
@@ -453,8 +465,8 @@ export default function DemoPage() {
                   </div>
                   <div className="text-right text-[10px] text-zinc-700 font-mono space-y-0.5">
                     <div>TLC v4.0</div>
-                    <div>5 layers audited</div>
-                    <div>{report.layers.filter(l => l.status === 'pass').length} PASS · {report.layers.filter(l => l.status === 'flag').length} FLAG · {report.layers.filter(l => l.status === 'fail').length} FAIL</div>
+                    <div>{layersReached} layer{layersReached === 1 ? '' : 's'} reached</div>
+                    <div>{evaluatedLayers.filter(l => l.status === 'pass').length} PASS · {evaluatedLayers.filter(l => l.status === 'flag').length} FLAG · {evaluatedLayers.filter(l => l.status === 'fail').length} FAIL</div>
                   </div>
                 </div>
                 <p className="text-sm text-zinc-300 leading-relaxed">{report.summary}</p>
@@ -463,7 +475,7 @@ export default function DemoPage() {
                   <div className="mt-4 pt-4 border-t border-zinc-800">
                     <div className="text-[10px] text-zinc-600 uppercase tracking-wider mb-2">Flagged Layers</div>
                     <div className="space-y-2">
-                      {report.layers.map((layer, i) => {
+                      {evaluatedLayers.map((layer, i) => {
                         if (layer.status === 'pass') return null;
                         return (
                           <div key={i} className="flex items-start gap-3">
