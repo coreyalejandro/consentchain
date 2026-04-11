@@ -19,6 +19,8 @@
   "project": "coreyalejandro/consentchain",
   "reviewer_status": "pending",
   "schema_version": "1.1.0",
+  "series": "B",
+  "status": "active",
   "tip_state_truth": "tip_pending",
   "truth_anchor": {
     "commit": "fd149cf8c2a9cc3e746322c90cfab507f8cc0be1",
