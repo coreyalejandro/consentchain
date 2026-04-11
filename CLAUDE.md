@@ -6,7 +6,7 @@ TLC submodule at `projects/consentchain/` — full implementation checkout (git 
 
 ## Implementation path
 
-`/Users/coreyalejandro/Projects/the-living-constitution/projects/consentchain` — see `04-consentchain/REGISTRY_PATH_MIGRATION.md` for path semantics.
+`projects/consentchain` (from repository root) — see `04-consentchain/REGISTRY_PATH_MIGRATION.md` for path semantics.
 
 ## Domain
 
