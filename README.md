@@ -1,6 +1,6 @@
 # ConsentChain
 
-ConsentChain is the governed implementation checkout for the ConsentChain family under **The Living Constitution** (TLC). Canonical path: `/Users/coreyalejandro/Projects/the-living-constitution/projects/consentchain` (git submodule). Path semantics (prior sibling checkout vs TLC submodule): see TLC `04-consentchain/REGISTRY_PATH_MIGRATION.md`.
+ConsentChain is the governed implementation checkout for the ConsentChain family under **The Living Constitution** (TLC). It is also checked out as a submodule of The Living Constitution; see TLC `04-consentchain/REGISTRY_PATH_MIGRATION.md` for how the two checkouts relate. Current results and their reproduction: [The Living Constitution 2.0](https://github.com/coreyalejandro/the-living-constitution-2.0).
 
 ## Verification bootstrap
 
