@@ -1,5 +1,7 @@
 # ConsentChain
 
+> **Status:** this repository holds ConsentChain's governance-verification scaffolding and site. The seven-stage consent gateway (validation, idempotency, revocation, policy, step-up, execution, ledger) is a separate prototype that has not been published here yet, so this repository does not demonstrate the gateway. See [CORRECTIONS.md](CORRECTIONS.md).
+
 ConsentChain is the governed implementation checkout for the ConsentChain family under **The Living Constitution** (TLC). It is also checked out as a submodule of The Living Constitution; see TLC `04-consentchain/REGISTRY_PATH_MIGRATION.md` for how the two checkouts relate. Current results and their reproduction: [The Living Constitution 2.0](https://github.com/coreyalejandro/the-living-constitution-2.0).
 
 ## Verification bootstrap
